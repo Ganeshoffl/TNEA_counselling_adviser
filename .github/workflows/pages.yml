@@ -59,7 +59,13 @@ jobs:
           BASE_PATH: /${{ github.event.repository.name }}/
         run: npm run build
 
+      # enablement lets this workflow turn Pages on by itself the first time, using
+      # the pages: write permission granted above. Without it, the very first run
+      # fails until someone flips Settings -> Pages -> Source to GitHub Actions by
+      # hand, which is easy to miss.
       - uses: actions/configure-pages@v5
+        with:
+          enablement: true
 
       - uses: actions/upload-pages-artifact@v3
         with:
