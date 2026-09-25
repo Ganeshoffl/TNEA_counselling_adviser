@@ -11,28 +11,38 @@ lists or hearsay.
 
 ---
 
+## It runs in the browser, with no server
+
+The app is a **static site**. The recommendation engine and the whole dataset ship to the
+browser (**746 KB, ~96 KB gzipped**), so there is no backend to host, no cold start and no
+running cost. Pushing to `main` publishes it to GitHub Pages.
+
+The FastAPI backend is still maintained and still serves the same documented API for
+programmatic use — it is simply no longer required to use the app.
+
 ## Quick start
 
 ```bash
-# 1. Backend (Python 3.11+)
-uv venv .venv --python 3.11
-uv pip install --python .venv/bin/python -r backend/requirements.txt
-
-# 2. Frontend
-cd frontend && npm install && npm run build && cd ..
-
-# 3. Run — one process serves the API and the built UI
-bash scripts/dev_api.sh          # http://127.0.0.1:8000
+# Static site only — no Python needed to run it
+cd frontend && npm install && npm run dev      # http://127.0.0.1:5173
 ```
 
-For frontend development with hot reload, run `bash scripts/dev_api.sh` in one terminal and
-`cd frontend && npm run dev` in another (Vite proxies `/api` to port 8000).
+```bash
+# Full setup, including the API and the data pipeline
+uv venv .venv --python 3.11
+uv pip install --python .venv/bin/python -r backend/requirements.txt
+cd frontend && npm install && npm run build && cd ..
+
+bash scripts/dev_api.sh          # http://127.0.0.1:8000  (API + built UI)
+```
 
 Verify everything end to end:
 
 ```bash
-bash scripts/verify.sh           # 17 checks, including engine output vs the raw official files
-bash scripts/capture.sh          # drives the UI in a headless browser, writes screenshots/
+bash scripts/verify.sh           # 19 checks, including engine-vs-official-file and Python/JS parity
+bash scripts/verify_parity.sh    # just the Python vs JavaScript engine comparison
+bash scripts/capture_static.sh   # proves the UI works with NO backend, writes screenshots/static/
+bash scripts/demo.sh             # boots the API, prints a live recommendation, shuts down
 ```
 
 ---
@@ -274,6 +284,30 @@ being rejected until a string-similarity fallback was added.
 
 ---
 
+## The engine exists twice, and that is checked
+
+To run with no server, the engine had to be ported to JavaScript. The Python
+implementation is kept because it backs the documented API. Two implementations of the
+same logic is a real maintenance risk, so it is converted into a guarded invariant:
+
+`scripts/verify_parity.sh` runs **both** engines over ten student profiles and asserts the
+output is identical — every score, probability, option ordering, verdict and sentence.
+Floats are compared to 1e-9; everything else must match exactly. It currently agrees across
+**3,521 scored candidates and 172 ranked options**, and it runs in CI on every push.
+
+That check earned its keep immediately by catching two real bugs in the port:
+
+1. **A rounding tolerance that was simply wrong.** Ties were detected with a 1e-9
+   tolerance, which classified `75.55` as a tie. It is not one — the nearest double is
+   `75.5499999999999971…`, so Python's `%.1f` correctly gives `75.5`, while the port
+   produced `75.6`.
+2. **Multiplication destroying the evidence.** The second attempt tested
+   `value * 10**digits % 1 === 0.5`, but that multiplication itself rounds: `75.55 * 10`
+   lands on *exactly* `755.5`, hiding the fact that the original value was below `.55`.
+
+The fix is to never multiply, and to detect genuine ties (`23.25`, `0.125`) from the exact
+decimal expansion. See `frontend/src/engine/pyCompat.js`.
+
 ## Project structure
 
 ```
@@ -287,6 +321,8 @@ backend/
     models.py        Request validation
     data/            Generated dataset (colleges, cutoffs, vacancy, branches)
 frontend/
+  public/data/       Static bundle shipped to the browser (746 KB)
+  src/engine/        JavaScript port: scoring, probability, verdicts, pyCompat
   src/               React app: form, three mode tabs, provenance panels
 data-sources/
   raw/               Downloaded official PDFs and HTML
@@ -300,9 +336,22 @@ scripts/
   discover_self_hosted.py   Crawls colleges' own sites for their NIRF submission (grade S)
   parse_self_hosted.py      Parses the verified college-hosted disclosures
   build_dataset.py          Combines everything into backend/app/data
-  verify.sh                 End-to-end checks
-  capture.sh                Headless-browser screenshots
+  build_static_bundle.py    Trims the dataset into frontend/public/data for the browser
+  verify.sh                 End-to-end checks (19)
+  verify_parity.sh          Python vs JavaScript engine comparison
+  capture.sh                Screenshots via the API-served build
+  capture_static.sh         Screenshots via the static build, proving no backend is needed
+  demo.sh                   Boots the API, prints a live recommendation, shuts down
 ```
+
+After changing anything in `backend/app/data`, regenerate the browser bundle:
+
+```bash
+python scripts/build_static_bundle.py
+```
+
+The Pages workflow regenerates it too and **fails the build if the committed copy is
+stale**, so the data shipped to users cannot drift from the dataset.
 
 Rebuild the dataset from the official sources:
 

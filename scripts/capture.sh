@@ -4,7 +4,7 @@
 set -uo pipefail
 
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-PY="$ROOT/.venv/bin/python"
+PY="${PYTHON:-$ROOT/.venv/bin/python}"
 export API_PORT="${API_PORT:-8000}"
 LOG=/tmp/tnea-capture.log
 

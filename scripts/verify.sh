@@ -4,7 +4,7 @@
 set -uo pipefail
 
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-PY="$ROOT/.venv/bin/python"
+PY="${PYTHON:-$ROOT/.venv/bin/python}"
 PORT="${API_PORT:-8000}"
 BASE="http://127.0.0.1:${PORT}"
 LOG=/tmp/tnea-verify.log
@@ -274,6 +274,66 @@ if not problems:
 sys.exit(1 if problems else 0)
 PYRAW
 check "engine matches raw official data" "$([[ $? == 0 ]] && echo 1 || echo 0)"
+
+echo "== python / javascript engine parity =="
+# The engine exists twice (Python for the API, JavaScript for the static build).
+# This is what stops the two drifting apart.
+bash "$ROOT/scripts/verify_parity.sh"
+check "engines agree exactly" "$([[ $? == 0 ]] && echo 1 || echo 0)"
+
+echo "== static bundle =="
+"$PY" - <<'PYBUNDLE'
+import json, os, sys
+from pathlib import Path
+
+data = Path('../frontend/public/data')
+problems = []
+
+if not data.is_dir():
+    print('  SKIP  static bundle not built')
+    sys.exit(0)
+
+required = ['meta.json', 'colleges.json', 'college-index.json', 'cutoffs.json', 'seats.json', 'branches.json']
+for name in required:
+    if not (data / name).exists():
+        problems.append(f'missing {name}')
+
+if not problems:
+    full = json.loads((data / 'colleges.json').read_text())
+    index = json.loads((data / 'college-index.json').read_text())
+    seats = json.loads((data / 'seats.json').read_text())
+    backend = json.loads(Path('app/data/colleges.json').read_text())
+
+    recommendable = [c for c in backend['colleges'] if c['recommendable']]
+    if len(full) != len(recommendable):
+        problems.append(f'bundle has {len(full)} full records, backend has {len(recommendable)} recommendable')
+    if len(index) != backend['meta']['college_count']:
+        problems.append(f'name index has {len(index)} colleges, backend has {backend["meta"]["college_count"]}')
+
+    # Every bundled college must still carry its provenance.
+    for college in full:
+        if college.get('placement') and not college['placement'].get('source_url'):
+            problems.append(f"{college['college_code']}: bundled placement lost its source link")
+        if college['data_confidence'] == 'S':
+            if not (college.get('placement') or {}).get('provenance_caveat'):
+                problems.append(f"{college['college_code']}: bundled grade S lost its caveat")
+
+    # Pre-round-1 seats must be reconstructed, not merely copied from after-round-1.
+    if not any('1' in v for v in seats.values()):
+        problems.append('no pre-round-1 seat figures were derived')
+
+    total = sum(os.path.getsize(data / n) for n in required)
+    if total > 2_000_000:
+        problems.append(f'bundle is {total/1024/1024:.1f} MB, larger than expected for static hosting')
+
+for p in problems[:10]:
+    print(f'  FAIL  {p}')
+if not problems:
+    total = sum(os.path.getsize(data / n) for n in required)
+    print(f'  PASS  static bundle complete and consistent ({total/1024:.0f} KB)')
+sys.exit(1 if problems else 0)
+PYBUNDLE
+check "static bundle consistent with backend dataset" "$([[ $? == 0 ]] && echo 1 || echo 0)"
 
 echo "== frontend =="
 if [[ -f "$ROOT/frontend/dist/index.html" ]]; then

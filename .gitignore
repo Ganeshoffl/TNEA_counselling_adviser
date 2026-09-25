@@ -16,3 +16,6 @@ screenshots/
 
 # Logs
 *.log
+
+# Local convenience symlink to a shared virtualenv
+.venv

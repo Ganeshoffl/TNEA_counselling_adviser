@@ -1,0 +1,92 @@
+[
+  {
+    "cutoff_mark": 199.5,
+    "rank": 250,
+    "community": "OC",
+    "current_round": 2,
+    "current_college_code": 2006,
+    "current_branch_code": "ME",
+    "limit": 10
+  },
+  {
+    "cutoff_mark": 196.0,
+    "rank": 1800,
+    "community": "BC",
+    "current_round": 2,
+    "current_college_code": 2711,
+    "current_branch_code": "CS",
+    "limit": 10
+  },
+  {
+    "cutoff_mark": 190.0,
+    "rank": 12000,
+    "community": "MBC",
+    "current_round": 2,
+    "current_college_code": 1419,
+    "current_branch_code": "EC",
+    "limit": 10
+  },
+  {
+    "cutoff_mark": 175.0,
+    "rank": 60000,
+    "community": "SC",
+    "current_round": 3,
+    "current_college_code": 1419,
+    "current_branch_code": "EC",
+    "limit": 10
+  },
+  {
+    "cutoff_mark": 182.0,
+    "rank": 45000,
+    "community": "MBC",
+    "current_round": 3,
+    "current_college_code": null,
+    "current_branch_code": null,
+    "limit": 10
+  },
+  {
+    "cutoff_mark": 194.0,
+    "rank": 5200,
+    "community": "BC",
+    "current_round": 1,
+    "current_college_code": null,
+    "current_branch_code": null,
+    "limit": 10
+  },
+  {
+    "cutoff_mark": 170.0,
+    "rank": 90000,
+    "community": "BC",
+    "current_round": 4,
+    "current_college_code": 1210,
+    "current_branch_code": "CS",
+    "limit": 10
+  },
+  {
+    "cutoff_mark": 165.0,
+    "rank": 150000,
+    "community": "ST",
+    "current_round": 3,
+    "current_college_code": 5,
+    "current_branch_code": "CS",
+    "limit": 10
+  },
+  {
+    "cutoff_mark": 188.0,
+    "rank": 20000,
+    "community": "SCA",
+    "current_round": 2,
+    "current_college_code": 9999,
+    "current_branch_code": "CS",
+    "limit": 10
+  },
+  {
+    "cutoff_mark": 193.0,
+    "rank": 8000,
+    "community": "BCM",
+    "current_round": 3,
+    "current_college_code": 1211,
+    "current_branch_code": "CS",
+    "limit": 5
+  }
+]
