@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "purpose": "NIRF institute IDs for Tamil Nadu TNEA colleges that NIRF 2025 publishes only as a rank band.",
+    "why_needed": "NIRF publishes institute IDs only for individually ranked institutes (top 100). Institutes in a rank band have no ID on the ranking pages, so their per-institute data disclosure (median salary, placement counts, laboratory and infrastructure expenditure) cannot be located from the ranking pages alone. However NIRF's own CDN does host disclosures for every participating institute, so recovering the ID unlocks the official document.",
+    "id_structure": "A NIRF ID has the form IR-{category}-{institution type}-{stable institute number}. The category letter varies by ranking category (E = Engineering, O = Overall, I = Innovation, B = SDG/Sustainability, M = Management) while the trailing institute number is stable across categories and across years. An ID discovered in any category or year therefore yields the Engineering ID by substituting category letter E.",
+    "verification": "Every ID below is VERIFIED at ingestion time: the 2025 Engineering disclosure is fetched from the NIRF CDN and the 'Institute Name: X [ID]' line inside the PDF must match the expected institution name. Any mismatch is rejected and reported rather than accepted, so a wrong ID cannot silently attach another college's placement record.",
+    "disclosure_url_pattern": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/{id}.pdf",
+    "not_yet_recovered": [
+      "Chennai Institute of Technology",
+      "Annamalai University",
+      "E.G.S. Pillay Engineering College",
+      "Hindusthan College of Engineering and Technology",
+      "K. Ramakrishnan College of Engineering",
+      "K. Ramakrishnan College of Technology",
+      "Kalaignar Karunanidhi Institute of Technology",
+      "Karpagam College of Engineering",
+      "Panimalar Engineering College",
+      "Prince Shri Venkateshwara Padmavathy Engineering College",
+      "PSNA College of Engineering and Technology, Dindigul",
+      "R. M. K. College of Engineering and Technology",
+      "R.M.D Engineering College",
+      "Rajalakshmi Institute of Technology",
+      "Rathinam Technical Campus",
+      "SNS College of Technology"
+    ],
+    "not_yet_recovered_note": "These colleges keep data-confidence grade B. Their NIRF rank band is verified, but no placement or laboratory figure is claimed for them.",
+
+    "finding_nirf_publishes_disclosures_only_to_rank_200": {
+      "observation": "IDs were successfully recovered for six further colleges (Sri Venkateswara College of Engineering IR-E-C-16572, St. Josephs College of Engineering IR-E-C-16537, Sri Eshwar College of Engineering IR-E-C-37057, M.Kumarasamy College of Engineering IR-E-C-45291, National Engineering College IR-E-C-27089, Saveetha Engineering College IR-E-C-16590), but every one of them returns HTTP 404 from the NIRF 2025 Engineering disclosure CDN.",
+      "pattern": "Every college whose disclosure fetch succeeded lies in NIRF band 101-150 or 151-200. Every college that returned 404 lies in band 201-300. NIRF therefore appears to publish per-institute disclosures only down to rank 200.",
+      "consequence": "For band 201-300 colleges there is no NIRF-hosted placement or laboratory figure to use. They remain grade B and no placement number is asserted for them. Copies of such submissions do exist on some college websites, but those are self-hosted rather than published by the Ministry, so they are deliberately not treated as equivalent provenance."
+    }
+  },
+
+  "ids": {
+    "Kongu Engineering College": "IR-E-C-37065",
+    "Thiagarajar College of Engineering": "IR-E-C-26794",
+    "Coimbatore Institute of Technology": "IR-E-C-36969",
+    "Easwari Engineering College": "IR-E-C-16560",
+    "KPR Institute of Engineering and Technology": "IR-E-C-36999",
+    "Rajalakshmi Engineering College": "IR-E-C-16626",
+    "Kumaraguru College of Technology": "IR-E-C-36926",
+    "Mepco Schlenk Engineering College": "IR-E-C-27058",
+    "Sona College of Technology": "IR-E-C-37028",
+    "R.M.K. Engineering College": "IR-E-C-16614",
+    "Sri Sairam Engineering College": "IR-E-C-16547",
+    "Sri Ramakrishna Engineering College": "IR-E-C-37089",
+    "PSG Institute of Technology and Applied Research": "IR-E-C-50605",
+    "Sri Venkateswara College of Engineering": "IR-E-C-16572",
+    "St. Josephs College of Engineering": "IR-E-C-16537",
+    "Sri Eshwar College of Engineering": "IR-E-C-37057",
+    "M.Kumarasamy College of Engineering": "IR-E-C-45291",
+    "National Engineering College": "IR-E-C-27089",
+    "Saveetha Engineering College": "IR-E-C-16590"
+  }
+}

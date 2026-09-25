@@ -1,0 +1,251 @@
+{
+  "meta": {
+    "dataset": "NIRF 2025 per-institute disclosures for band-ranked Tamil Nadu TNEA colleges",
+    "publisher": "National Institutional Ranking Framework (NIRF), Ministry of Education, Government of India",
+    "year": 2025,
+    "verification": "Each disclosure was accepted only after the institute name printed inside the official PDF matched the expected college and the embedded ID matched the requested ID.",
+    "accepted_count": 13,
+    "rejected": [
+      {
+        "expected_name": "Sri Venkateswara College of Engineering",
+        "institute_id": "IR-E-C-16572",
+        "reason": "HTTP 404 fetching disclosure"
+      },
+      {
+        "expected_name": "St. Josephs College of Engineering",
+        "institute_id": "IR-E-C-16537",
+        "reason": "HTTP 404 fetching disclosure"
+      },
+      {
+        "expected_name": "Sri Eshwar College of Engineering",
+        "institute_id": "IR-E-C-37057",
+        "reason": "HTTP 404 fetching disclosure"
+      },
+      {
+        "expected_name": "M.Kumarasamy College of Engineering",
+        "institute_id": "IR-E-C-45291",
+        "reason": "HTTP 404 fetching disclosure"
+      },
+      {
+        "expected_name": "National Engineering College",
+        "institute_id": "IR-E-C-27089",
+        "reason": "HTTP 404 fetching disclosure"
+      },
+      {
+        "expected_name": "Saveetha Engineering College",
+        "institute_id": "IR-E-C-16590",
+        "reason": "HTTP 404 fetching disclosure"
+      }
+    ]
+  },
+  "disclosures": {
+    "Kongu Engineering College": {
+      "placement": {
+        "graduating_year": "2023-24",
+        "students_graduating": 1310,
+        "students_placed": 1066,
+        "median_salary_inr": 350000
+      },
+      "lab_equipment_expenditure_inr": 37147622,
+      "library_expenditure_inr": 8780688,
+      "other_capital_expenditure_inr": null,
+      "engineering_workshops_expenditure_inr": 3900135,
+      "ug4_total_students": 1620,
+      "source_url": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-C-37065.pdf",
+      "verified_institute_name": "Kongu Engineering College",
+      "verified_institute_id": "IR-E-C-37065"
+    },
+    "Thiagarajar College of Engineering": {
+      "placement": {
+        "graduating_year": "2023-24",
+        "students_graduating": 870,
+        "students_placed": 692,
+        "median_salary_inr": 720000
+      },
+      "lab_equipment_expenditure_inr": 34182728,
+      "library_expenditure_inr": 3355946,
+      "other_capital_expenditure_inr": null,
+      "engineering_workshops_expenditure_inr": 3723533,
+      "ug4_total_students": 840,
+      "source_url": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-C-26794.pdf",
+      "verified_institute_name": "Thiagarajar College of Engineering",
+      "verified_institute_id": "IR-E-C-26794"
+    },
+    "Coimbatore Institute of Technology": {
+      "placement": {
+        "graduating_year": "2023-24",
+        "students_graduating": 751,
+        "students_placed": 660,
+        "median_salary_inr": 680000
+      },
+      "lab_equipment_expenditure_inr": 140766163,
+      "library_expenditure_inr": 5079388,
+      "other_capital_expenditure_inr": null,
+      "engineering_workshops_expenditure_inr": 2059313,
+      "ug4_total_students": 720,
+      "source_url": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-C-36969.pdf",
+      "verified_institute_name": "Coimbatore Institute of Technology",
+      "verified_institute_id": "IR-E-C-36969"
+    },
+    "Easwari Engineering College": {
+      "placement": {
+        "graduating_year": "2023-24",
+        "students_graduating": 1064,
+        "students_placed": 955,
+        "median_salary_inr": 550000
+      },
+      "lab_equipment_expenditure_inr": 43510072,
+      "library_expenditure_inr": 7716431,
+      "other_capital_expenditure_inr": null,
+      "engineering_workshops_expenditure_inr": 9462698,
+      "ug4_total_students": 1080,
+      "source_url": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-C-16560.pdf",
+      "verified_institute_name": "Easwari Engineering College",
+      "verified_institute_id": "IR-E-C-16560"
+    },
+    "KPR Institute of Engineering and Technology": {
+      "placement": {
+        "graduating_year": "2023-24",
+        "students_graduating": 956,
+        "students_placed": 657,
+        "median_salary_inr": 476000
+      },
+      "lab_equipment_expenditure_inr": 21423919,
+      "library_expenditure_inr": 2729926,
+      "other_capital_expenditure_inr": null,
+      "engineering_workshops_expenditure_inr": 2784472,
+      "ug4_total_students": 900,
+      "source_url": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-C-36999.pdf",
+      "verified_institute_name": "KPR Institute of Engineering and Technology",
+      "verified_institute_id": "IR-E-C-36999"
+    },
+    "Rajalakshmi Engineering College": {
+      "placement": {
+        "graduating_year": "2023-24",
+        "students_graduating": 1867,
+        "students_placed": 1631,
+        "median_salary_inr": 540000
+      },
+      "lab_equipment_expenditure_inr": 52633418,
+      "library_expenditure_inr": 14986024,
+      "other_capital_expenditure_inr": null,
+      "engineering_workshops_expenditure_inr": 10324530,
+      "ug4_total_students": 1890,
+      "source_url": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-C-16626.pdf",
+      "verified_institute_name": "Rajalakshmi Engineering College",
+      "verified_institute_id": "IR-E-C-16626"
+    },
+    "Kumaraguru College of Technology": {
+      "placement": {
+        "graduating_year": "2023-24",
+        "students_graduating": 1229,
+        "students_placed": 949,
+        "median_salary_inr": 500000
+      },
+      "lab_equipment_expenditure_inr": 73368222,
+      "library_expenditure_inr": 10681649,
+      "other_capital_expenditure_inr": null,
+      "engineering_workshops_expenditure_inr": 22406066,
+      "ug4_total_students": 1260,
+      "source_url": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-C-36926.pdf",
+      "verified_institute_name": "Kumaraguru College of Technology",
+      "verified_institute_id": "IR-E-C-36926"
+    },
+    "Mepco Schlenk Engineering College": {
+      "placement": {
+        "graduating_year": "2023-24",
+        "students_graduating": 912,
+        "students_placed": 445,
+        "median_salary_inr": 350000
+      },
+      "lab_equipment_expenditure_inr": 18650079,
+      "library_expenditure_inr": 5490846,
+      "other_capital_expenditure_inr": null,
+      "engineering_workshops_expenditure_inr": 341435,
+      "ug4_total_students": 960,
+      "source_url": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-C-27058.pdf",
+      "verified_institute_name": "Mepco Schlenk Engineering College",
+      "verified_institute_id": "IR-E-C-27058"
+    },
+    "Sona College of Technology": {
+      "placement": {
+        "graduating_year": "2023-24",
+        "students_graduating": 991,
+        "students_placed": 815,
+        "median_salary_inr": 450000
+      },
+      "lab_equipment_expenditure_inr": 64587516,
+      "library_expenditure_inr": 5645908,
+      "other_capital_expenditure_inr": null,
+      "engineering_workshops_expenditure_inr": 3872922,
+      "ug4_total_students": 1050,
+      "source_url": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-C-37028.pdf",
+      "verified_institute_name": "Sona College of Technology",
+      "verified_institute_id": "IR-E-C-37028"
+    },
+    "R.M.K. Engineering College": {
+      "placement": {
+        "graduating_year": "2023-24",
+        "students_graduating": 727,
+        "students_placed": 519,
+        "median_salary_inr": 550000
+      },
+      "lab_equipment_expenditure_inr": 28407635,
+      "library_expenditure_inr": 4215860,
+      "other_capital_expenditure_inr": null,
+      "engineering_workshops_expenditure_inr": 6298781,
+      "ug4_total_students": 780,
+      "source_url": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-C-16614.pdf",
+      "verified_institute_name": "R.M.K. Engineering College",
+      "verified_institute_id": "IR-E-C-16614"
+    },
+    "Sri Sairam Engineering College": {
+      "placement": {
+        "graduating_year": "2023-24",
+        "students_graduating": 1122,
+        "students_placed": 774,
+        "median_salary_inr": 490000
+      },
+      "lab_equipment_expenditure_inr": 78540740,
+      "library_expenditure_inr": 11074635,
+      "other_capital_expenditure_inr": null,
+      "engineering_workshops_expenditure_inr": 56226570,
+      "ug4_total_students": 1260,
+      "source_url": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-C-16547.pdf",
+      "verified_institute_name": "Sri Sairam Engineering College",
+      "verified_institute_id": "IR-E-C-16547"
+    },
+    "Sri Ramakrishna Engineering College": {
+      "placement": {
+        "graduating_year": "2023-24",
+        "students_graduating": 993,
+        "students_placed": 858,
+        "median_salary_inr": 540000
+      },
+      "lab_equipment_expenditure_inr": 76960889,
+      "library_expenditure_inr": 9418956,
+      "other_capital_expenditure_inr": null,
+      "engineering_workshops_expenditure_inr": 29664746,
+      "ug4_total_students": 990,
+      "source_url": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-C-37089.pdf",
+      "verified_institute_name": "Sri Ramakrishna Engineering College",
+      "verified_institute_id": "IR-E-C-37089"
+    },
+    "PSG Institute of Technology and Applied Research": {
+      "placement": {
+        "graduating_year": "2023-24",
+        "students_graduating": 291,
+        "students_placed": 247,
+        "median_salary_inr": 700000
+      },
+      "lab_equipment_expenditure_inr": 33064850,
+      "library_expenditure_inr": 3223945,
+      "other_capital_expenditure_inr": null,
+      "engineering_workshops_expenditure_inr": 8076329,
+      "ug4_total_students": 300,
+      "source_url": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-C-50605.pdf",
+      "verified_institute_name": "PSG Institute of Technology and Applied Research",
+      "verified_institute_id": "IR-E-C-50605"
+    }
+  }
+}

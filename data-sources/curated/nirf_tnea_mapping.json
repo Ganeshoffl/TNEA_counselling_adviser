@@ -1,0 +1,172 @@
+{
+  "meta": {
+    "purpose": "Hand-verified mapping between NIRF 2025 engineering institutions in Tamil Nadu and official TNEA 2026 college codes.",
+    "why_manual": "Automated fuzzy name matching was tested and rejected. TNEA college names embed the full postal address, so after removing generic words such as 'college', 'institute', 'engineering' and 'technology' the only remaining distinctive token is often the city name. That caused confident-looking but wrong matches (for example 'Vellore Institute of Technology' matching unrelated colleges located in Vellore). Because a wrong match would attach one college's placement record to a different college, every entry below was verified by reading the official TNEA college name.",
+    "tnea_name_source": "TNEA 2026 general academic vacancy position PDFs, Directorate of Technical Education (DoTE), Tamil Nadu",
+    "nirf_source": "NIRF 2025 Engineering rankings, Ministry of Education, Government of India",
+    "review_rule": "tnea_official_name is reproduced verbatim from the official TNEA source so that each mapping can be independently audited.",
+    "counts": {
+      "nirf_tamilnadu_institutions_considered": 58,
+      "mapped_nirf_institutions": 37,
+      "mapped_tnea_college_codes": 40,
+      "excluded_institutions": 21
+    }
+  },
+
+  "mappings": [
+    {
+      "nirf_name": "Anna University",
+      "tnea_college_codes": [1, 2, 4],
+      "tnea_official_names": {
+        "1": "University Departments of Anna University Chennai - CEG Campus Sardar Patel Road Guindy Chennai",
+        "2": "University Departments of Anna University Chennai - ACT Campus Sardar Patel Road Guindy Chennai",
+        "4": "University Departments of Anna University Chennai - MIT Campus Chrompet Tambaram Taluk Chengalpattu"
+      },
+      "caveat": "The NIRF submission is made by Anna University as a single institution. It is applied here only to the three Chennai university departments (CEG, ACT, MIT) that the submission covers. It is deliberately NOT applied to the Anna University Regional Campuses (codes 2025, 4020, 5010) or to the School of Architecture and Planning (code 3), because NIRF does not publish separate data for them."
+    },
+
+    { "nirf_name": "PSG College of Technology", "tnea_college_codes": [2006],
+      "tnea_official_names": { "2006": "PSG College of Technology (Autonomous) Peelamedu Coimbatore District 641004" } },
+
+    { "nirf_name": "Sri Krishna College of Engineering and Technology", "tnea_college_codes": [2718],
+      "tnea_official_names": { "2718": "Sri Krishna College of Engineering and Technology (Autonomous), Sugunapuram, Kuniamuthur Post, Coimbatore" },
+      "caveat": "Distinguished from the similarly named Sri Krishna Institute of Technology (1335), Sri Krishna Engineering College (1427), Sree Krishna College of Engineering (1438) and Sri Krishna College of Engineering (1526), none of which are the NIRF-ranked Coimbatore institution." },
+
+    { "nirf_name": "Chennai Institute of Technology", "tnea_college_codes": [1399],
+      "tnea_official_names": { "1399": "Chennai Institute of Technology (Autonomous) Puduper Village Nandambakkam Post Kundrathur Chennai" } },
+
+    { "nirf_name": "Coimbatore Institute of Technology", "tnea_college_codes": [2007],
+      "tnea_official_names": { "2007": "Coimbatore Institute of Technology (Autonomous) Civil Aerodrome Post Coimbatore District 641014" } },
+
+    { "nirf_name": "Easwari Engineering College", "tnea_college_codes": [1304],
+      "tnea_official_names": { "1304": "Easwari Engineering College (Autonomous), Bharathi Salai, Ramapuram, Chennai-600089." } },
+
+    { "nirf_name": "Kongu Engineering College", "tnea_college_codes": [2711],
+      "tnea_official_names": { "2711": "Kongu Engineering College (Autonomous), Perundurai Railway Station Road,Thoppupalayam,Perundurai" } },
+
+    { "nirf_name": "KPR Institute of Engineering and Technology", "tnea_college_codes": [2764],
+      "tnea_official_names": { "2764": "KPR Institute of Engineering and Technology (Autonomous), SF:204/2 & 204/4, Kollupalayam Village" } },
+
+    { "nirf_name": "PSG Institute of Technology and Applied Research", "tnea_college_codes": [2377],
+      "tnea_official_names": { "2377": "PSG Institute of Technology and Applied Research(Autonomous), Avinashi Road,Neelambur, Sulur,Coimbatore" },
+      "caveat": "A separate institution from PSG College of Technology (2006); NIRF ranks the two independently." },
+
+    { "nirf_name": "Rajalakshmi Engineering College", "tnea_college_codes": [1211],
+      "tnea_official_names": { "1211": "Rajalakshmi Engineering College (Autonomous), Rajalakshmi Nagar, Thandalam, Kanchipuram, Chennai" },
+      "caveat": "Mapped to the main Thandalam campus only. TNEA code 1111 is the separately coded Rajalakshmi Engineering College OFF CAMPUS and code 1432 is Rajalakshmi Institute of Technology, which NIRF ranks separately." },
+
+    { "nirf_name": "Thiagarajar College of Engineering", "tnea_college_codes": [5008],
+      "tnea_official_names": { "5008": "Thiagarajar College of Engineering (Autonomous) Tirupparankundram Madurai District 625015" },
+      "caveat": "Not to be confused with Sona College of Technology (2618), whose address contains 'Thiagarajar Polytechnic College Road'." },
+
+    { "nirf_name": "Kumaraguru College of Technology", "tnea_college_codes": [2712],
+      "tnea_official_names": { "2712": "Kumaraguru College of Technology (Autonomous), Chinnavedampatti, Coimbatore-641049." } },
+
+    { "nirf_name": "Mepco Schlenk Engineering College", "tnea_college_codes": [4960],
+      "tnea_official_names": { "4960": "Mepco Schlenk Engineering College (Autonomous), Sivakasi,Mepco Engineering College Post,Virudhunagar" } },
+
+    { "nirf_name": "R.M.K. Engineering College", "tnea_college_codes": [1113],
+      "tnea_official_names": { "1113": "R.M.K. Engineering College (Autonomous), R.S.M. Nagar, Kavaraipettai, Gummidipoondi Taluk, Thiruvallur" } },
+
+    { "nirf_name": "Sona College of Technology", "tnea_college_codes": [2618],
+      "tnea_official_names": { "2618": "Sona College of Technology (Autonomous), Sona Nagar, Thiagarajar Polytechnic College Road, Salem" } },
+
+    { "nirf_name": "Sri Ramakrishna Engineering College", "tnea_college_codes": [2719],
+      "tnea_official_names": { "2719": "Sri Ramakrishna Engineering College (Autonomous), Vattamalaipalayam, NGGO Colony Post, Coimbatore" },
+      "caveat": "Distinct from Sri Ramakrishna Institute of Technology (2725) and Sri Ramakrishna College of Engineering (3454)." },
+
+    { "nirf_name": "Sri Sairam Engineering College", "tnea_college_codes": [1419],
+      "tnea_official_names": { "1419": "Sri Sai Ram Engineering College (Autonomous), Sai Leo Nagar, Poonthandalam Village, Dharkast Post" } },
+
+    { "nirf_name": "Annamalai University", "tnea_college_codes": [5],
+      "tnea_official_names": { "5": "Annamalai University Faculty of Engineering and Technology Annamalai nagar Cuddalore" } },
+
+    { "nirf_name": "E.G.S. Pillay Engineering College", "tnea_college_codes": [3806],
+      "tnea_official_names": { "3806": "E.G.S. Pillay Engineering College (Autonomous), Old Nagore Road, Nagore Post, Nagapattinam District" } },
+
+    { "nirf_name": "Hindusthan College of Engineering and Technology", "tnea_college_codes": [2708],
+      "tnea_official_names": { "2708": "Hindusthan College of Engineering and Technology(Autonomous), Othakkalmandapam Village, Coimbatore" },
+      "caveat": "Distinct from Hindusthan College of Technology (2345), Hindusthan Institute of Technology (2740) and Hindusthan College of Engineering, Erode (2777)." },
+
+    { "nirf_name": "K. Ramakrishnan College of Engineering", "tnea_college_codes": [3830],
+      "tnea_official_names": { "3830": "K. Ramakrishnan College of Engineering (Autonomous), Kariyamanickam Road, Samayapuram, Tiruchirappalli" } },
+
+    { "nirf_name": "K. Ramakrishnan College of Technology", "tnea_college_codes": [3701],
+      "tnea_official_names": { "3701": "K Ramakrishnan College of Technology (Autonomous), Kariyamanickam Road, Mannachanallur Taluk, Tiruchirappalli" } },
+
+    { "nirf_name": "Kalaignar Karunanidhi Institute of Technology", "tnea_college_codes": [2750],
+      "tnea_official_names": { "2750": "KIT - Kalaignarkarunanidhi Institute of Technology (Autonomous), S.F.No. 282,S.F.No. 283 Kannampalayam" } },
+
+    { "nirf_name": "Karpagam College of Engineering", "tnea_college_codes": [2710],
+      "tnea_official_names": { "2710": "Karpagam College of Engineering (Autonomous), S.F.No.758,759,760 Othakkal Mandapam, Coimbatore" } },
+
+    { "nirf_name": "M.Kumarasamy College of Engineering", "tnea_college_codes": [2608],
+      "tnea_official_names": { "2608": "M.Kumarasamy College of Engineering (Autonomous), Thalavapalayam Post,Punjai Thottakkurichi, Karur" } },
+
+    { "nirf_name": "National Engineering College", "tnea_college_codes": [4962],
+      "tnea_official_names": { "4962": "National Engineering College (Autonomous), K.R. Nagar, Nalattinputhur, Kovilpatti, Tuticorin" } },
+
+    { "nirf_name": "Panimalar Engineering College", "tnea_college_codes": [1210],
+      "tnea_official_names": { "1210": "Panimalar Engineering College (Autonomous), Bangalore Trunk Road, Varadharajapuram, Poonamallee, Thiruvallur" } },
+
+    { "nirf_name": "Prince Shri Venkateshwara Padmavathy Engineering College", "tnea_college_codes": [1414],
+      "tnea_official_names": { "1414": "Prince Shri Venkateshwaraa Padmavathy Engineering College (Autonomous), Medavakkam - Mambakkam Road" } },
+
+    { "nirf_name": "PSNA College of Engineering and Technology, Dindigul", "tnea_college_codes": [5910],
+      "tnea_official_names": { "5910": "PSNA College of Engineering and Technology (Autonomous), Kothandaraman Nagar, Muthanampatti, Dindigul" } },
+
+    { "nirf_name": "R. M. K. College of Engineering and Technology", "tnea_college_codes": [1128],
+      "tnea_official_names": { "1128": "R.M.K. College of Engineering and Technology (Autonomous), R.S.M. Nagar, Puduvoyal, Gummidipoondi Taluk" } },
+
+    { "nirf_name": "R.M.D Engineering College", "tnea_college_codes": [1112],
+      "tnea_official_names": { "1112": "R.M.D. Engineering College (Autonomous), R.S.M. Nagar, Gummidipoondi Taluk, Kavaraipettai, Thiruvallur" } },
+
+    { "nirf_name": "Rajalakshmi Institute of Technology", "tnea_college_codes": [1432],
+      "tnea_official_names": { "1432": "Rajalakshmi Institute of Technology (Autonomous), Bangalore Highway Road, Kuthambakkam, Chennai" } },
+
+    { "nirf_name": "Rathinam Technical Campus", "tnea_college_codes": [2329],
+      "tnea_official_names": { "2329": "Rathinam Technical Campus (Autonomous), Rathinam Techzone Campus, Pollachi Road, Eachanari, Coimbatore" } },
+
+    { "nirf_name": "Saveetha Engineering College", "tnea_college_codes": [1216],
+      "tnea_official_names": { "1216": "Saveetha Engineering College (Autonomous), Saveetha Nagar, Thandalam Post, Sriperumbudur Taluk" },
+      "caveat": "A TNEA-participating college, and a different institution from the deemed university Saveetha Institute of Medical and Technical Sciences, which does not admit through TNEA." },
+
+    { "nirf_name": "SNS College of Technology", "tnea_college_codes": [2726],
+      "tnea_official_names": { "2726": "SNS College of Technology (Autonomous), Sathy Main Road, Vazhiyampalayam, Saravanampatti Post, Coimbatore" } },
+
+    { "nirf_name": "Sri Eshwar College of Engineering", "tnea_college_codes": [2739],
+      "tnea_official_names": { "2739": "Sri Eshwar College of Engineering (Autonomous), Kondampatti Post, Vadasithur Via, Coimbatore-641202." } },
+
+    { "nirf_name": "Sri Venkateswara College of Engineering", "tnea_college_codes": [1219],
+      "tnea_official_names": { "1219": "Sri Venkateswara College of Engineering (Autonomous), Post Bag No.3, Pennalur, Sriperumbudur" },
+      "caveat": "Distinct from Sri Venkateswara College of Engineering and Technology (1116), Sri Venkateswara Institute of Science and Technology (1121) and Sri Venkateswaraa College of Technology (1413)." },
+
+    { "nirf_name": "St. Josephs College of Engineering", "tnea_college_codes": [1317],
+      "tnea_official_names": { "1317": "St. Joseph's College of Engineering (Autonomous), Jeppiaar Nagar, Old Mamallapuram Road, Kanchipuram" },
+      "caveat": "Distinct from St. Joseph College of Engineering Trinity Campus (1325) and St. Joseph's College of Engineering and Technology, Thanjavur (3825)." }
+  ],
+
+  "excluded": [
+    { "nirf_name": "Indian Institute of Technology Madras", "reason": "Admits through JEE Advanced / JoSAA, not TNEA." },
+    { "nirf_name": "National Institute of Technology Tiruchirappalli", "reason": "Admits through JEE Main / JoSAA, not TNEA." },
+    { "nirf_name": "Indian Institute of Information Technology, Design & Manufacturing, Kancheepuram", "reason": "Centrally funded institute, admits through JoSAA, not TNEA." },
+    { "nirf_name": "National Institute of Food Technology, Entrepreneurship and Management - Thanjavur", "reason": "Central institute, does not admit through TNEA." },
+    { "nirf_name": "S.R.M. Institute of Science and Technology", "reason": "Deemed university, admits through its own entrance examination. Absent from the official TNEA 2026 college list." },
+    { "nirf_name": "Vellore Institute of Technology", "reason": "Deemed university, admits through VITEEE. Absent from the official TNEA 2026 college list." },
+    { "nirf_name": "Amrita Vishwa Vidyapeetham", "reason": "Deemed university, own admission process. Absent from the official TNEA 2026 college list." },
+    { "nirf_name": "Kalasalingam Academy of Research and Education", "reason": "Deemed university, own admission process. Absent from the official TNEA 2026 college list." },
+    { "nirf_name": "Shanmugha Arts Science Technology & Research Academy", "reason": "Deemed university (SASTRA), own admission process. Absent from the official TNEA 2026 college list." },
+    { "nirf_name": "Saveetha Institute of Medical and Technical Sciences", "reason": "Deemed university, own admission process. Absent from the official TNEA 2026 college list." },
+    { "nirf_name": "Sathyabama Institute of Science and Technology", "reason": "Deemed university, own admission process. Absent from the official TNEA 2026 college list." },
+    { "nirf_name": "Vel Tech Rangarajan Dr. Sagunthala R & D Institute of Science and Technology", "reason": "Deemed university, own admission process. Absent from the official TNEA 2026 college list." },
+    { "nirf_name": "Hindustan Institute of Technology and Science (HITS)", "reason": "Deemed university, own admission process. Absent from the official TNEA 2026 college list." },
+    { "nirf_name": "Karunya Institute of Technology and Sciences", "reason": "Deemed university, own admission process. Absent from the official TNEA 2026 college list." },
+    { "nirf_name": "B. S. Abdur Rahman Crescent Institute of Science and Technology", "reason": "Deemed university, own admission process. Absent from the official TNEA 2026 college list." },
+    { "nirf_name": "Dr. M. G. R. Educational and Research Institute", "reason": "Deemed university, own admission process. Absent from the official TNEA 2026 college list." },
+    { "nirf_name": "Vels Institute of Science Technology and Advanced Studies (VISTAS)", "reason": "Deemed university, own admission process. Absent from the official TNEA 2026 college list." },
+    { "nirf_name": "Sri Sivasubramaniya Nadar College of Engineering", "reason": "Not present in the official TNEA 2026 general academic college list, so no TNEA seat can be recommended. Searched for 'Sivasubramaniya', 'Nadar', 'SSN' and 'Kalavakkam' with no match." },
+    { "nirf_name": "Sri Sai Ram Institute of Technology", "reason": "Not present in the official TNEA 2026 general academic college list. Only the separate Sri Sai Ram Engineering College (1419) appears." },
+    { "nirf_name": "St. Joseph`s Institute of Technology", "reason": "Not present in the official TNEA 2026 general academic college list under this name; not mapped rather than guessed." },
+    { "nirf_name": "Annamalai University (duplicate check)", "reason": "Mapped to code 5; listed here only to note that the several Tiruvannamalai-district colleges whose addresses contain 'Annamalai' are unrelated institutions." }
+  ]
+}

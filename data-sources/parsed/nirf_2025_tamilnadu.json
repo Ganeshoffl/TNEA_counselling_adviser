@@ -1,0 +1,1208 @@
+{
+  "meta": {
+    "dataset": "NIRF 2025 engineering data for Tamil Nadu institutions",
+    "publisher": "National Institutional Ranking Framework (NIRF), Ministry of Education, Government of India",
+    "year": 2025,
+    "notes": [
+      "Institutes ranked outside the top 100 are published by NIRF only as a rank band, with no score and no institute id.",
+      "Per-institute disclosures (median salary, laboratory and infrastructure expenditure) exist only for institutes with a NIRF id.",
+      "Fields that are absent from the official source are null and must be shown as unverified."
+    ]
+  },
+  "institutions": [
+    {
+      "nirf_id": "IR-E-U-0456",
+      "name": "Indian Institute of Technology Madras",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "score": 88.72,
+      "rank": 1,
+      "rank_band": null,
+      "sub_scores": {
+        "TLR": 95.7,
+        "RPC": 90.74,
+        "GO": 82.29,
+        "OI": 63.25,
+        "PERCEPTION": 100.0
+      },
+      "source": {
+        "publisher": "National Institutional Ranking Framework (NIRF), Ministry of Education, Government of India",
+        "year": 2025,
+        "ranking_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking.html"
+      },
+      "disclosure": {
+        "placement": {
+          "graduating_year": "2023-24",
+          "students_graduating": 714,
+          "students_placed": 549,
+          "median_salary_inr": 1750000
+        },
+        "lab_equipment_expenditure_inr": 4831269000,
+        "library_expenditure_inr": 268746540,
+        "other_capital_expenditure_inr": null,
+        "engineering_workshops_expenditure_inr": 15221031,
+        "ug4_total_students": 877,
+        "source_url": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-U-0456.pdf"
+      }
+    },
+    {
+      "nirf_id": "IR-E-U-0467",
+      "name": "National Institute of Technology Tiruchirappalli",
+      "city": "Tiruchirappalli",
+      "state": "Tamil Nadu",
+      "score": 68.14,
+      "rank": 9,
+      "rank_band": null,
+      "sub_scores": {
+        "TLR": 73.26,
+        "RPC": 57.64,
+        "GO": 78.69,
+        "OI": 64.76,
+        "PERCEPTION": 66.54
+      },
+      "source": {
+        "publisher": "National Institutional Ranking Framework (NIRF), Ministry of Education, Government of India",
+        "year": 2025,
+        "ranking_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking.html"
+      },
+      "disclosure": {
+        "placement": {
+          "graduating_year": "2023-24",
+          "students_graduating": 1029,
+          "students_placed": 791,
+          "median_salary_inr": 1435000
+        },
+        "lab_equipment_expenditure_inr": 120177797,
+        "library_expenditure_inr": 48246479,
+        "other_capital_expenditure_inr": null,
+        "engineering_workshops_expenditure_inr": 100000,
+        "ug4_total_students": 964,
+        "source_url": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-U-0467.pdf"
+      }
+    },
+    {
+      "nirf_id": "IR-E-U-0473",
+      "name": "S.R.M. Institute of Science and Technology",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "score": 65.83,
+      "rank": 14,
+      "rank_band": null,
+      "sub_scores": {
+        "TLR": 78.69,
+        "RPC": 68.93,
+        "GO": 65.43,
+        "OI": 67.09,
+        "PERCEPTION": 17.45
+      },
+      "source": {
+        "publisher": "National Institutional Ranking Framework (NIRF), Ministry of Education, Government of India",
+        "year": 2025,
+        "ranking_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking.html"
+      },
+      "disclosure": {
+        "placement": {
+          "graduating_year": "2023-24",
+          "students_graduating": 4552,
+          "students_placed": 4210,
+          "median_salary_inr": 620000
+        },
+        "lab_equipment_expenditure_inr": 646091459,
+        "library_expenditure_inr": 165217117,
+        "other_capital_expenditure_inr": null,
+        "engineering_workshops_expenditure_inr": 127226147,
+        "ug4_total_students": 4740,
+        "source_url": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-U-0473.pdf"
+      }
+    },
+    {
+      "nirf_id": "IR-E-U-0490",
+      "name": "Vellore Institute of Technology",
+      "city": "Vellore",
+      "state": "Tamil Nadu",
+      "score": 65.25,
+      "rank": 16,
+      "rank_band": null,
+      "sub_scores": {
+        "TLR": 66.77,
+        "RPC": 67.6,
+        "GO": 72.22,
+        "OI": 61.01,
+        "PERCEPTION": 43.97
+      },
+      "source": {
+        "publisher": "National Institutional Ranking Framework (NIRF), Ministry of Education, Government of India",
+        "year": 2025,
+        "ranking_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking.html"
+      },
+      "disclosure": {
+        "placement": {
+          "graduating_year": "2023-24",
+          "students_graduating": 5964,
+          "students_placed": 4031,
+          "median_salary_inr": 899000
+        },
+        "lab_equipment_expenditure_inr": 659556045,
+        "library_expenditure_inr": 104893369,
+        "other_capital_expenditure_inr": null,
+        "engineering_workshops_expenditure_inr": 8628067,
+        "ug4_total_students": 7620,
+        "source_url": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-U-0490.pdf"
+      }
+    },
+    {
+      "nirf_id": "IR-E-U-0439",
+      "name": "Anna University",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "score": 63.51,
+      "rank": 20,
+      "rank_band": null,
+      "sub_scores": {
+        "TLR": 69.43,
+        "RPC": 62.8,
+        "GO": 63.28,
+        "OI": 51.12,
+        "PERCEPTION": 60.73
+      },
+      "source": {
+        "publisher": "National Institutional Ranking Framework (NIRF), Ministry of Education, Government of India",
+        "year": 2025,
+        "ranking_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking.html"
+      },
+      "disclosure": {
+        "placement": {
+          "graduating_year": "2023-24",
+          "students_graduating": 1588,
+          "students_placed": 1149,
+          "median_salary_inr": 800000
+        },
+        "lab_equipment_expenditure_inr": 302135061,
+        "library_expenditure_inr": 9336427,
+        "other_capital_expenditure_inr": null,
+        "engineering_workshops_expenditure_inr": 2624920,
+        "ug4_total_students": 2290,
+        "source_url": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-U-0439.pdf"
+      }
+    },
+    {
+      "nirf_id": "IR-E-U-0436",
+      "name": "Amrita Vishwa Vidyapeetham",
+      "city": "Coimbatore",
+      "state": "Tamil Nadu",
+      "score": 62.46,
+      "rank": 23,
+      "rank_band": null,
+      "sub_scores": {
+        "TLR": 80.74,
+        "RPC": 51.78,
+        "GO": 67.71,
+        "OI": 64.19,
+        "PERCEPTION": 27.53
+      },
+      "source": {
+        "publisher": "National Institutional Ranking Framework (NIRF), Ministry of Education, Government of India",
+        "year": 2025,
+        "ranking_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking.html"
+      },
+      "disclosure": {
+        "placement": {
+          "graduating_year": "2023-24",
+          "students_graduating": 2634,
+          "students_placed": 1879,
+          "median_salary_inr": 775000
+        },
+        "lab_equipment_expenditure_inr": 201735686,
+        "library_expenditure_inr": 141944351,
+        "other_capital_expenditure_inr": null,
+        "engineering_workshops_expenditure_inr": 257584479,
+        "ug4_total_students": 3240,
+        "source_url": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-U-0436.pdf"
+      }
+    },
+    {
+      "nirf_id": "IR-E-U-0458",
+      "name": "Kalasalingam Academy of Research and Education",
+      "city": "Krishnan Koil",
+      "state": "Tamil Nadu",
+      "score": 59.03,
+      "rank": 33,
+      "rank_band": null,
+      "sub_scores": {
+        "TLR": 78.03,
+        "RPC": 42.46,
+        "GO": 72.16,
+        "OI": 77.18,
+        "PERCEPTION": 7.27
+      },
+      "source": {
+        "publisher": "National Institutional Ranking Framework (NIRF), Ministry of Education, Government of India",
+        "year": 2025,
+        "ranking_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking.html"
+      },
+      "disclosure": {
+        "placement": {
+          "graduating_year": "2023-24",
+          "students_graduating": 1476,
+          "students_placed": 1359,
+          "median_salary_inr": 610000
+        },
+        "lab_equipment_expenditure_inr": 81182440,
+        "library_expenditure_inr": 23157403,
+        "other_capital_expenditure_inr": null,
+        "engineering_workshops_expenditure_inr": 33628717,
+        "ug4_total_students": 1590,
+        "source_url": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-U-0458.pdf"
+      }
+    },
+    {
+      "nirf_id": "IR-E-U-0476",
+      "name": "Shanmugha Arts Science Technology & Research Academy",
+      "city": "Thanjavur",
+      "state": "Tamil Nadu",
+      "score": 58.02,
+      "rank": 40,
+      "rank_band": null,
+      "sub_scores": {
+        "TLR": 80.47,
+        "RPC": 35.94,
+        "GO": 73.7,
+        "OI": 72.8,
+        "PERCEPTION": 10.76
+      },
+      "source": {
+        "publisher": "National Institutional Ranking Framework (NIRF), Ministry of Education, Government of India",
+        "year": 2025,
+        "ranking_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking.html"
+      },
+      "disclosure": {
+        "placement": {
+          "graduating_year": "2023-24",
+          "students_graduating": 1823,
+          "students_placed": 1621,
+          "median_salary_inr": 760000
+        },
+        "lab_equipment_expenditure_inr": 274876645,
+        "library_expenditure_inr": 53456197,
+        "other_capital_expenditure_inr": null,
+        "engineering_workshops_expenditure_inr": null,
+        "ug4_total_students": 1980,
+        "source_url": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-U-0476.pdf"
+      }
+    },
+    {
+      "nirf_id": "IR-E-I-1441",
+      "name": "Saveetha Institute of Medical and Technical Sciences",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "score": 56.55,
+      "rank": 45,
+      "rank_band": null,
+      "sub_scores": {
+        "TLR": 75.77,
+        "RPC": 61.58,
+        "GO": 40.58,
+        "OI": 71.22,
+        "PERCEPTION": 1.07
+      },
+      "source": {
+        "publisher": "National Institutional Ranking Framework (NIRF), Ministry of Education, Government of India",
+        "year": 2025,
+        "ranking_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking.html"
+      },
+      "disclosure": {
+        "placement": {
+          "graduating_year": "2023-24",
+          "students_graduating": 1269,
+          "students_placed": 786,
+          "median_salary_inr": 472000
+        },
+        "lab_equipment_expenditure_inr": 77775934,
+        "library_expenditure_inr": 56250114,
+        "other_capital_expenditure_inr": null,
+        "engineering_workshops_expenditure_inr": 110294342,
+        "ug4_total_students": 1410,
+        "source_url": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-I-1441.pdf"
+      }
+    },
+    {
+      "nirf_id": "IR-E-C-16604",
+      "name": "Sri Sivasubramaniya Nadar College of Engineering",
+      "city": "Kalavakkam",
+      "state": "Tamil Nadu",
+      "score": 56.08,
+      "rank": 47,
+      "rank_band": null,
+      "sub_scores": {
+        "TLR": 71.29,
+        "RPC": 43.96,
+        "GO": 70.01,
+        "OI": 57.78,
+        "PERCEPTION": 17.21
+      },
+      "source": {
+        "publisher": "National Institutional Ranking Framework (NIRF), Ministry of Education, Government of India",
+        "year": 2025,
+        "ranking_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking.html"
+      },
+      "disclosure": {
+        "placement": {
+          "graduating_year": "2023-24",
+          "students_graduating": 803,
+          "students_placed": 624,
+          "median_salary_inr": 860000
+        },
+        "lab_equipment_expenditure_inr": 44722965,
+        "library_expenditure_inr": 7236493,
+        "other_capital_expenditure_inr": null,
+        "engineering_workshops_expenditure_inr": 5441176,
+        "ug4_total_students": 780,
+        "source_url": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-C-16604.pdf"
+      }
+    },
+    {
+      "nirf_id": "IR-E-U-0474",
+      "name": "Sathyabama Institute of Science and Technology",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "score": 50.64,
+      "rank": 67,
+      "rank_band": null,
+      "sub_scores": {
+        "TLR": 70.44,
+        "RPC": 36.38,
+        "GO": 51.69,
+        "OI": 71.85,
+        "PERCEPTION": 10.76
+      },
+      "source": {
+        "publisher": "National Institutional Ranking Framework (NIRF), Ministry of Education, Government of India",
+        "year": 2025,
+        "ranking_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking.html"
+      },
+      "disclosure": {
+        "placement": {
+          "graduating_year": "2023-24",
+          "students_graduating": 2801,
+          "students_placed": 1502,
+          "median_salary_inr": 600000
+        },
+        "lab_equipment_expenditure_inr": 463157932,
+        "library_expenditure_inr": 55940926,
+        "other_capital_expenditure_inr": null,
+        "engineering_workshops_expenditure_inr": 1542159,
+        "ug4_total_students": 2580,
+        "source_url": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-U-0474.pdf"
+      }
+    },
+    {
+      "nirf_id": "IR-E-C-37013",
+      "name": "PSG College of Technology",
+      "city": "Coimbatore",
+      "state": "Tamil Nadu",
+      "score": 50.64,
+      "rank": 67,
+      "rank_band": null,
+      "sub_scores": {
+        "TLR": 70.17,
+        "RPC": 26.31,
+        "GO": 60.36,
+        "OI": 47.52,
+        "PERCEPTION": 48.83
+      },
+      "source": {
+        "publisher": "National Institutional Ranking Framework (NIRF), Ministry of Education, Government of India",
+        "year": 2025,
+        "ranking_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking.html"
+      },
+      "disclosure": {
+        "placement": {
+          "graduating_year": "2023-24",
+          "students_graduating": 1114,
+          "students_placed": 831,
+          "median_salary_inr": 700000
+        },
+        "lab_equipment_expenditure_inr": 58629000,
+        "library_expenditure_inr": 13837000,
+        "other_capital_expenditure_inr": null,
+        "engineering_workshops_expenditure_inr": null,
+        "ug4_total_students": 1140,
+        "source_url": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-C-37013.pdf"
+      }
+    },
+    {
+      "nirf_id": "IR-E-U-0489",
+      "name": "Vel Tech Rangarajan Dr. Sagunthala R & D Institute of Science and Technology",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "score": 47.43,
+      "rank": 87,
+      "rank_band": null,
+      "sub_scores": {
+        "TLR": 66.71,
+        "RPC": 35.76,
+        "GO": 46.01,
+        "OI": 67.33,
+        "PERCEPTION": 7.57
+      },
+      "source": {
+        "publisher": "National Institutional Ranking Framework (NIRF), Ministry of Education, Government of India",
+        "year": 2025,
+        "ranking_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking.html"
+      },
+      "disclosure": {
+        "placement": {
+          "graduating_year": "2023-24",
+          "students_graduating": 1596,
+          "students_placed": 785,
+          "median_salary_inr": 400000
+        },
+        "lab_equipment_expenditure_inr": 54262109,
+        "library_expenditure_inr": 1668132,
+        "other_capital_expenditure_inr": null,
+        "engineering_workshops_expenditure_inr": 11964743,
+        "ug4_total_students": 2220,
+        "source_url": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-U-0489.pdf"
+      }
+    },
+    {
+      "nirf_id": "IR-E-C-36995",
+      "name": "Sri Krishna College of Engineering and Technology",
+      "city": "Coimbatore",
+      "state": "Tamil Nadu",
+      "score": 45.55,
+      "rank": 100,
+      "rank_band": null,
+      "sub_scores": {
+        "TLR": 68.47,
+        "RPC": 22.35,
+        "GO": 63.4,
+        "OI": 49.25,
+        "PERCEPTION": 6.97
+      },
+      "source": {
+        "publisher": "National Institutional Ranking Framework (NIRF), Ministry of Education, Government of India",
+        "year": 2025,
+        "ranking_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking.html"
+      },
+      "disclosure": {
+        "placement": {
+          "graduating_year": "2023-24",
+          "students_graduating": 1084,
+          "students_placed": 991,
+          "median_salary_inr": 700000
+        },
+        "lab_equipment_expenditure_inr": 79597448,
+        "library_expenditure_inr": 9508541,
+        "other_capital_expenditure_inr": null,
+        "engineering_workshops_expenditure_inr": 28012500,
+        "ug4_total_students": 1080,
+        "source_url": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-C-36995.pdf"
+      }
+    },
+    {
+      "nirf_id": null,
+      "name": "Chennai Institute of Technology",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "score": null,
+      "rank": null,
+      "rank_band": "101-150",
+      "sub_scores": null,
+      "source": {
+        "publisher": "National Institutional Ranking Framework (NIRF), Ministry of Education, Government of India",
+        "year": 2025,
+        "ranking_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking150.html"
+      },
+      "disclosure": null
+    },
+    {
+      "nirf_id": null,
+      "name": "Coimbatore Institute of Technology",
+      "city": "Coimbatore",
+      "state": "Tamil Nadu",
+      "score": null,
+      "rank": null,
+      "rank_band": "101-150",
+      "sub_scores": null,
+      "source": {
+        "publisher": "National Institutional Ranking Framework (NIRF), Ministry of Education, Government of India",
+        "year": 2025,
+        "ranking_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking150.html"
+      },
+      "disclosure": null
+    },
+    {
+      "nirf_id": null,
+      "name": "Easwari Engineering College",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "score": null,
+      "rank": null,
+      "rank_band": "101-150",
+      "sub_scores": null,
+      "source": {
+        "publisher": "National Institutional Ranking Framework (NIRF), Ministry of Education, Government of India",
+        "year": 2025,
+        "ranking_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking150.html"
+      },
+      "disclosure": null
+    },
+    {
+      "nirf_id": null,
+      "name": "Hindustan Institute of Technology and Science (HITS)",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "score": null,
+      "rank": null,
+      "rank_band": "101-150",
+      "sub_scores": null,
+      "source": {
+        "publisher": "National Institutional Ranking Framework (NIRF), Ministry of Education, Government of India",
+        "year": 2025,
+        "ranking_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking150.html"
+      },
+      "disclosure": null
+    },
+    {
+      "nirf_id": null,
+      "name": "Karunya Institute of Technology and Sciences",
+      "city": "Coimbatore",
+      "state": "Tamil Nadu",
+      "score": null,
+      "rank": null,
+      "rank_band": "101-150",
+      "sub_scores": null,
+      "source": {
+        "publisher": "National Institutional Ranking Framework (NIRF), Ministry of Education, Government of India",
+        "year": 2025,
+        "ranking_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking150.html"
+      },
+      "disclosure": null
+    },
+    {
+      "nirf_id": null,
+      "name": "Kongu Engineering College",
+      "city": "Perundurai",
+      "state": "Tamil Nadu",
+      "score": null,
+      "rank": null,
+      "rank_band": "101-150",
+      "sub_scores": null,
+      "source": {
+        "publisher": "National Institutional Ranking Framework (NIRF), Ministry of Education, Government of India",
+        "year": 2025,
+        "ranking_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking150.html"
+      },
+      "disclosure": null
+    },
+    {
+      "nirf_id": null,
+      "name": "KPR Institute of Engineering and Technology",
+      "city": "Coimbatore",
+      "state": "Tamil Nadu",
+      "score": null,
+      "rank": null,
+      "rank_band": "101-150",
+      "sub_scores": null,
+      "source": {
+        "publisher": "National Institutional Ranking Framework (NIRF), Ministry of Education, Government of India",
+        "year": 2025,
+        "ranking_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking150.html"
+      },
+      "disclosure": null
+    },
+    {
+      "nirf_id": null,
+      "name": "National Institute of Food Technology, Entrepreneurship and Management - Thanjavur (NIFTEM - Thanjavur)",
+      "city": "Thanjavur",
+      "state": "Tamil Nadu",
+      "score": null,
+      "rank": null,
+      "rank_band": "101-150",
+      "sub_scores": null,
+      "source": {
+        "publisher": "National Institutional Ranking Framework (NIRF), Ministry of Education, Government of India",
+        "year": 2025,
+        "ranking_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking150.html"
+      },
+      "disclosure": null
+    },
+    {
+      "nirf_id": null,
+      "name": "PSG Institute of Technology and Applied Research",
+      "city": "Coimbatore",
+      "state": "Tamil Nadu",
+      "score": null,
+      "rank": null,
+      "rank_band": "101-150",
+      "sub_scores": null,
+      "source": {
+        "publisher": "National Institutional Ranking Framework (NIRF), Ministry of Education, Government of India",
+        "year": 2025,
+        "ranking_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking150.html"
+      },
+      "disclosure": null
+    },
+    {
+      "nirf_id": null,
+      "name": "Rajalakshmi Engineering College",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "score": null,
+      "rank": null,
+      "rank_band": "101-150",
+      "sub_scores": null,
+      "source": {
+        "publisher": "National Institutional Ranking Framework (NIRF), Ministry of Education, Government of India",
+        "year": 2025,
+        "ranking_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking150.html"
+      },
+      "disclosure": null
+    },
+    {
+      "nirf_id": null,
+      "name": "Thiagarajar College of Engineering",
+      "city": "Madurai",
+      "state": "Tamil Nadu",
+      "score": null,
+      "rank": null,
+      "rank_band": "101-150",
+      "sub_scores": null,
+      "source": {
+        "publisher": "National Institutional Ranking Framework (NIRF), Ministry of Education, Government of India",
+        "year": 2025,
+        "ranking_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking150.html"
+      },
+      "disclosure": null
+    },
+    {
+      "nirf_id": null,
+      "name": "B. S. Abdur Rahman Crescent Institute of Science and Technology",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "score": null,
+      "rank": null,
+      "rank_band": "151-200",
+      "sub_scores": null,
+      "source": {
+        "publisher": "National Institutional Ranking Framework (NIRF), Ministry of Education, Government of India",
+        "year": 2025,
+        "ranking_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking200.html"
+      },
+      "disclosure": null
+    },
+    {
+      "nirf_id": null,
+      "name": "Dr. M. G. R. Educational and Research Institute",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "score": null,
+      "rank": null,
+      "rank_band": "151-200",
+      "sub_scores": null,
+      "source": {
+        "publisher": "National Institutional Ranking Framework (NIRF), Ministry of Education, Government of India",
+        "year": 2025,
+        "ranking_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking200.html"
+      },
+      "disclosure": null
+    },
+    {
+      "nirf_id": null,
+      "name": "Indian Institute of Information Technology, Design & Manufacturing, Kancheepuram",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "score": null,
+      "rank": null,
+      "rank_band": "151-200",
+      "sub_scores": null,
+      "source": {
+        "publisher": "National Institutional Ranking Framework (NIRF), Ministry of Education, Government of India",
+        "year": 2025,
+        "ranking_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking200.html"
+      },
+      "disclosure": null
+    },
+    {
+      "nirf_id": null,
+      "name": "Kumaraguru College of Technology",
+      "city": "Coimbatore",
+      "state": "Tamil Nadu",
+      "score": null,
+      "rank": null,
+      "rank_band": "151-200",
+      "sub_scores": null,
+      "source": {
+        "publisher": "National Institutional Ranking Framework (NIRF), Ministry of Education, Government of India",
+        "year": 2025,
+        "ranking_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking200.html"
+      },
+      "disclosure": null
+    },
+    {
+      "nirf_id": null,
+      "name": "Mepco Schlenk Engineering College",
+      "city": "Sivakasi",
+      "state": "Tamil Nadu",
+      "score": null,
+      "rank": null,
+      "rank_band": "151-200",
+      "sub_scores": null,
+      "source": {
+        "publisher": "National Institutional Ranking Framework (NIRF), Ministry of Education, Government of India",
+        "year": 2025,
+        "ranking_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking200.html"
+      },
+      "disclosure": null
+    },
+    {
+      "nirf_id": null,
+      "name": "R.M.K. Engineering College",
+      "city": "Thiruvallur",
+      "state": "Tamil Nadu",
+      "score": null,
+      "rank": null,
+      "rank_band": "151-200",
+      "sub_scores": null,
+      "source": {
+        "publisher": "National Institutional Ranking Framework (NIRF), Ministry of Education, Government of India",
+        "year": 2025,
+        "ranking_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking200.html"
+      },
+      "disclosure": null
+    },
+    {
+      "nirf_id": null,
+      "name": "Sona College of Technology",
+      "city": "Salem",
+      "state": "Tamil Nadu",
+      "score": null,
+      "rank": null,
+      "rank_band": "151-200",
+      "sub_scores": null,
+      "source": {
+        "publisher": "National Institutional Ranking Framework (NIRF), Ministry of Education, Government of India",
+        "year": 2025,
+        "ranking_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking200.html"
+      },
+      "disclosure": null
+    },
+    {
+      "nirf_id": null,
+      "name": "Sri Ramakrishna Engineering College",
+      "city": "Coimbatore",
+      "state": "Tamil Nadu",
+      "score": null,
+      "rank": null,
+      "rank_band": "151-200",
+      "sub_scores": null,
+      "source": {
+        "publisher": "National Institutional Ranking Framework (NIRF), Ministry of Education, Government of India",
+        "year": 2025,
+        "ranking_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking200.html"
+      },
+      "disclosure": null
+    },
+    {
+      "nirf_id": null,
+      "name": "Sri Sai Ram Institute of Technology",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "score": null,
+      "rank": null,
+      "rank_band": "151-200",
+      "sub_scores": null,
+      "source": {
+        "publisher": "National Institutional Ranking Framework (NIRF), Ministry of Education, Government of India",
+        "year": 2025,
+        "ranking_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking200.html"
+      },
+      "disclosure": null
+    },
+    {
+      "nirf_id": null,
+      "name": "Sri Sairam Engineering College",
+      "city": "Kancheepuram",
+      "state": "Tamil Nadu",
+      "score": null,
+      "rank": null,
+      "rank_band": "151-200",
+      "sub_scores": null,
+      "source": {
+        "publisher": "National Institutional Ranking Framework (NIRF), Ministry of Education, Government of India",
+        "year": 2025,
+        "ranking_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking200.html"
+      },
+      "disclosure": null
+    },
+    {
+      "nirf_id": null,
+      "name": "Vels Institute of Science Technology and Advanced Studies (VISTAS)",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "score": null,
+      "rank": null,
+      "rank_band": "151-200",
+      "sub_scores": null,
+      "source": {
+        "publisher": "National Institutional Ranking Framework (NIRF), Ministry of Education, Government of India",
+        "year": 2025,
+        "ranking_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking200.html"
+      },
+      "disclosure": null
+    },
+    {
+      "nirf_id": null,
+      "name": "Annamalai University",
+      "city": "Annamalainagar",
+      "state": "Tamil Nadu",
+      "score": null,
+      "rank": null,
+      "rank_band": "201-300",
+      "sub_scores": null,
+      "source": {
+        "publisher": "National Institutional Ranking Framework (NIRF), Ministry of Education, Government of India",
+        "year": 2025,
+        "ranking_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking300.html"
+      },
+      "disclosure": null
+    },
+    {
+      "nirf_id": null,
+      "name": "E.G.S. Pillay Engineering College",
+      "city": "Nagapattinam",
+      "state": "Tamil Nadu",
+      "score": null,
+      "rank": null,
+      "rank_band": "201-300",
+      "sub_scores": null,
+      "source": {
+        "publisher": "National Institutional Ranking Framework (NIRF), Ministry of Education, Government of India",
+        "year": 2025,
+        "ranking_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking300.html"
+      },
+      "disclosure": null
+    },
+    {
+      "nirf_id": null,
+      "name": "Hindusthan College of Engineering and Technology",
+      "city": "Coimbatore",
+      "state": "Tamil Nadu",
+      "score": null,
+      "rank": null,
+      "rank_band": "201-300",
+      "sub_scores": null,
+      "source": {
+        "publisher": "National Institutional Ranking Framework (NIRF), Ministry of Education, Government of India",
+        "year": 2025,
+        "ranking_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking300.html"
+      },
+      "disclosure": null
+    },
+    {
+      "nirf_id": null,
+      "name": "K. Ramakrishnan College of Engineering",
+      "city": "Samayapuram",
+      "state": "Tamil Nadu",
+      "score": null,
+      "rank": null,
+      "rank_band": "201-300",
+      "sub_scores": null,
+      "source": {
+        "publisher": "National Institutional Ranking Framework (NIRF), Ministry of Education, Government of India",
+        "year": 2025,
+        "ranking_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking300.html"
+      },
+      "disclosure": null
+    },
+    {
+      "nirf_id": null,
+      "name": "K. Ramakrishnan College of Technology",
+      "city": "Tiruchirappalli",
+      "state": "Tamil Nadu",
+      "score": null,
+      "rank": null,
+      "rank_band": "201-300",
+      "sub_scores": null,
+      "source": {
+        "publisher": "National Institutional Ranking Framework (NIRF), Ministry of Education, Government of India",
+        "year": 2025,
+        "ranking_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking300.html"
+      },
+      "disclosure": null
+    },
+    {
+      "nirf_id": null,
+      "name": "Kalaignar Karunanidhi Institute of Technology",
+      "city": "Coimbatore",
+      "state": "Tamil Nadu",
+      "score": null,
+      "rank": null,
+      "rank_band": "201-300",
+      "sub_scores": null,
+      "source": {
+        "publisher": "National Institutional Ranking Framework (NIRF), Ministry of Education, Government of India",
+        "year": 2025,
+        "ranking_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking300.html"
+      },
+      "disclosure": null
+    },
+    {
+      "nirf_id": null,
+      "name": "Karpagam College of Engineering",
+      "city": "Coimbatore",
+      "state": "Tamil Nadu",
+      "score": null,
+      "rank": null,
+      "rank_band": "201-300",
+      "sub_scores": null,
+      "source": {
+        "publisher": "National Institutional Ranking Framework (NIRF), Ministry of Education, Government of India",
+        "year": 2025,
+        "ranking_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking300.html"
+      },
+      "disclosure": null
+    },
+    {
+      "nirf_id": null,
+      "name": "M.Kumarasamy College of Engineering",
+      "city": "Karur",
+      "state": "Tamil Nadu",
+      "score": null,
+      "rank": null,
+      "rank_band": "201-300",
+      "sub_scores": null,
+      "source": {
+        "publisher": "National Institutional Ranking Framework (NIRF), Ministry of Education, Government of India",
+        "year": 2025,
+        "ranking_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking300.html"
+      },
+      "disclosure": null
+    },
+    {
+      "nirf_id": null,
+      "name": "National Engineering College",
+      "city": "Kovilpatti",
+      "state": "Tamil Nadu",
+      "score": null,
+      "rank": null,
+      "rank_band": "201-300",
+      "sub_scores": null,
+      "source": {
+        "publisher": "National Institutional Ranking Framework (NIRF), Ministry of Education, Government of India",
+        "year": 2025,
+        "ranking_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking300.html"
+      },
+      "disclosure": null
+    },
+    {
+      "nirf_id": null,
+      "name": "Panimalar Engineering College",
+      "city": "Thiruvallur",
+      "state": "Tamil Nadu",
+      "score": null,
+      "rank": null,
+      "rank_band": "201-300",
+      "sub_scores": null,
+      "source": {
+        "publisher": "National Institutional Ranking Framework (NIRF), Ministry of Education, Government of India",
+        "year": 2025,
+        "ranking_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking300.html"
+      },
+      "disclosure": null
+    },
+    {
+      "nirf_id": null,
+      "name": "Prince Shri Venkateshwara Padmavathy Engineering College",
+      "city": "Kancheepuram",
+      "state": "Tamil Nadu",
+      "score": null,
+      "rank": null,
+      "rank_band": "201-300",
+      "sub_scores": null,
+      "source": {
+        "publisher": "National Institutional Ranking Framework (NIRF), Ministry of Education, Government of India",
+        "year": 2025,
+        "ranking_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking300.html"
+      },
+      "disclosure": null
+    },
+    {
+      "nirf_id": null,
+      "name": "PSNA College of Engineering and Technology, Dindigul",
+      "city": "Dindigul",
+      "state": "Tamil Nadu",
+      "score": null,
+      "rank": null,
+      "rank_band": "201-300",
+      "sub_scores": null,
+      "source": {
+        "publisher": "National Institutional Ranking Framework (NIRF), Ministry of Education, Government of India",
+        "year": 2025,
+        "ranking_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking300.html"
+      },
+      "disclosure": null
+    },
+    {
+      "nirf_id": null,
+      "name": "R. M. K. College of Engineering and Technology",
+      "city": "Thiruvallur",
+      "state": "Tamil Nadu",
+      "score": null,
+      "rank": null,
+      "rank_band": "201-300",
+      "sub_scores": null,
+      "source": {
+        "publisher": "National Institutional Ranking Framework (NIRF), Ministry of Education, Government of India",
+        "year": 2025,
+        "ranking_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking300.html"
+      },
+      "disclosure": null
+    },
+    {
+      "nirf_id": null,
+      "name": "R.M.D Engineering College",
+      "city": "Thiruvallur",
+      "state": "Tamil Nadu",
+      "score": null,
+      "rank": null,
+      "rank_band": "201-300",
+      "sub_scores": null,
+      "source": {
+        "publisher": "National Institutional Ranking Framework (NIRF), Ministry of Education, Government of India",
+        "year": 2025,
+        "ranking_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking300.html"
+      },
+      "disclosure": null
+    },
+    {
+      "nirf_id": null,
+      "name": "Rajalakshmi Institute of Technology",
+      "city": "Thiruvallur",
+      "state": "Tamil Nadu",
+      "score": null,
+      "rank": null,
+      "rank_band": "201-300",
+      "sub_scores": null,
+      "source": {
+        "publisher": "National Institutional Ranking Framework (NIRF), Ministry of Education, Government of India",
+        "year": 2025,
+        "ranking_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking300.html"
+      },
+      "disclosure": null
+    },
+    {
+      "nirf_id": null,
+      "name": "Rathinam Technical Campus",
+      "city": "Coimbatore",
+      "state": "Tamil Nadu",
+      "score": null,
+      "rank": null,
+      "rank_band": "201-300",
+      "sub_scores": null,
+      "source": {
+        "publisher": "National Institutional Ranking Framework (NIRF), Ministry of Education, Government of India",
+        "year": 2025,
+        "ranking_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking300.html"
+      },
+      "disclosure": null
+    },
+    {
+      "nirf_id": null,
+      "name": "Saveetha Engineering College",
+      "city": "Sriperumbudur",
+      "state": "Tamil Nadu",
+      "score": null,
+      "rank": null,
+      "rank_band": "201-300",
+      "sub_scores": null,
+      "source": {
+        "publisher": "National Institutional Ranking Framework (NIRF), Ministry of Education, Government of India",
+        "year": 2025,
+        "ranking_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking300.html"
+      },
+      "disclosure": null
+    },
+    {
+      "nirf_id": null,
+      "name": "SNS College of Technology",
+      "city": "Coimbatore",
+      "state": "Tamil Nadu",
+      "score": null,
+      "rank": null,
+      "rank_band": "201-300",
+      "sub_scores": null,
+      "source": {
+        "publisher": "National Institutional Ranking Framework (NIRF), Ministry of Education, Government of India",
+        "year": 2025,
+        "ranking_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking300.html"
+      },
+      "disclosure": null
+    },
+    {
+      "nirf_id": null,
+      "name": "Sri Eshwar College of Engineering",
+      "city": "Coimbatore",
+      "state": "Tamil Nadu",
+      "score": null,
+      "rank": null,
+      "rank_band": "201-300",
+      "sub_scores": null,
+      "source": {
+        "publisher": "National Institutional Ranking Framework (NIRF), Ministry of Education, Government of India",
+        "year": 2025,
+        "ranking_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking300.html"
+      },
+      "disclosure": null
+    },
+    {
+      "nirf_id": null,
+      "name": "Sri Venkateswara College of Engineering",
+      "city": "Sriperumbudur",
+      "state": "Tamil Nadu",
+      "score": null,
+      "rank": null,
+      "rank_band": "201-300",
+      "sub_scores": null,
+      "source": {
+        "publisher": "National Institutional Ranking Framework (NIRF), Ministry of Education, Government of India",
+        "year": 2025,
+        "ranking_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking300.html"
+      },
+      "disclosure": null
+    },
+    {
+      "nirf_id": null,
+      "name": "St. Joseph`s Institute of Technology",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "score": null,
+      "rank": null,
+      "rank_band": "201-300",
+      "sub_scores": null,
+      "source": {
+        "publisher": "National Institutional Ranking Framework (NIRF), Ministry of Education, Government of India",
+        "year": 2025,
+        "ranking_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking300.html"
+      },
+      "disclosure": null
+    },
+    {
+      "nirf_id": null,
+      "name": "St. Josephs College of Engineering",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "score": null,
+      "rank": null,
+      "rank_band": "201-300",
+      "sub_scores": null,
+      "source": {
+        "publisher": "National Institutional Ranking Framework (NIRF), Ministry of Education, Government of India",
+        "year": 2025,
+        "ranking_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking300.html"
+      },
+      "disclosure": null
+    }
+  ]
+}

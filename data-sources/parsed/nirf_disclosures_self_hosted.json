@@ -1,0 +1,253 @@
+{
+  "meta": {
+    "dataset": "Institution-hosted NIRF Engineering disclosures, parsed",
+    "publisher_of_document": "National Institutional Ranking Framework (NIRF), Ministry of Education, Government of India",
+    "served_by": "the institution's own website (not the Ministry CDN)",
+    "confidence_grade": "S",
+    "provenance_warning": "These are the institutions' own NIRF submissions, but they are served by the institutions rather than by the Ministry of Education. The document content was verified (correct submission year, Engineering category, and matching institute name and id), but the chain of custody is weaker than a Ministry-hosted copy, so this data is graded S and is never presented as Ministry-hosted.",
+    "parsed_count": 12,
+    "failures": []
+  },
+  "disclosures": {
+    "Annamalai University": {
+      "placement": {
+        "graduating_year": "2023-24",
+        "students_graduating": 649,
+        "students_placed": 262,
+        "median_salary_inr": 250000
+      },
+      "lab_equipment_expenditure_inr": 2389937,
+      "library_expenditure_inr": 465144,
+      "other_capital_expenditure_inr": null,
+      "engineering_workshops_expenditure_inr": null,
+      "ug4_total_students": 1020,
+      "source_url": "https://annamalaiuniversity.ac.in/download/nirf2025/Engineering.pdf",
+      "source_host": "annamalaiuniversity.ac.in",
+      "rankings_year": 2025,
+      "verified_institute_name": "Annamalai University",
+      "verified_institute_id": "IR-E-U-0443",
+      "provenance": "self_hosted_by_institution",
+      "host_note": null
+    },
+    "Kalaignar Karunanidhi Institute of Technology": {
+      "placement": {
+        "graduating_year": "2023-24",
+        "students_graduating": 581,
+        "students_placed": 527,
+        "median_salary_inr": 820000
+      },
+      "lab_equipment_expenditure_inr": 13416136,
+      "library_expenditure_inr": 4146600,
+      "other_capital_expenditure_inr": null,
+      "engineering_workshops_expenditure_inr": 4214371,
+      "ug4_total_students": 660,
+      "source_url": "https://www.kitcbe.com/assets/img/NIRF_2025_Engineering.pdf",
+      "source_host": "www.kitcbe.com",
+      "rankings_year": 2025,
+      "verified_institute_name": "Kalaignar Karunanidhi Institute of Technology",
+      "verified_institute_id": "IR-E-C-37070",
+      "provenance": "self_hosted_by_institution",
+      "host_note": null
+    },
+    "Hindusthan College of Engineering and Technology": {
+      "placement": {
+        "graduating_year": "2023-24",
+        "students_graduating": 1415,
+        "students_placed": 1144,
+        "median_salary_inr": 490000
+      },
+      "lab_equipment_expenditure_inr": 15942180,
+      "library_expenditure_inr": 12345565,
+      "other_capital_expenditure_inr": null,
+      "engineering_workshops_expenditure_inr": 11003400,
+      "ug4_total_students": 1230,
+      "source_url": "https://hicet.ac.in/files/HICET-NIRF-2025-Engineering.pdf",
+      "source_host": "hicet.ac.in",
+      "rankings_year": 2025,
+      "verified_institute_name": "Hindusthan College of Engineering and Technology",
+      "verified_institute_id": "IR-E-C-37063",
+      "provenance": "self_hosted_by_institution",
+      "host_note": null
+    },
+    "R.M.D Engineering College": {
+      "placement": {
+        "graduating_year": "2023-24",
+        "students_graduating": 499,
+        "students_placed": 300,
+        "median_salary_inr": 423000
+      },
+      "lab_equipment_expenditure_inr": 9275468,
+      "library_expenditure_inr": 4642004,
+      "other_capital_expenditure_inr": null,
+      "engineering_workshops_expenditure_inr": 312150,
+      "ug4_total_students": 540,
+      "source_url": "https://www.rmd.ac.in/nirf/engg-dcs2025.pdf",
+      "source_host": "www.rmd.ac.in",
+      "rankings_year": 2025,
+      "verified_institute_name": "R.M.D Engineering College",
+      "verified_institute_id": "IR-E-C-16527",
+      "provenance": "self_hosted_by_institution",
+      "host_note": null
+    },
+    "Panimalar Engineering College": {
+      "placement": {
+        "graduating_year": "2023-24",
+        "students_graduating": 1491,
+        "students_placed": 1249,
+        "median_salary_inr": 401988
+      },
+      "lab_equipment_expenditure_inr": 40446029,
+      "library_expenditure_inr": 4557244,
+      "other_capital_expenditure_inr": null,
+      "engineering_workshops_expenditure_inr": 200000,
+      "ug4_total_students": 1620,
+      "source_url": "https://www.panimalar.ac.in/assets/pdf/academics/nirf/PEC_NIRF2025_Engineering.pdf",
+      "source_host": "www.panimalar.ac.in",
+      "rankings_year": 2025,
+      "verified_institute_name": "Panimalar Engineering College",
+      "verified_institute_id": "IR-E-C-16620",
+      "provenance": "self_hosted_by_institution",
+      "host_note": null
+    },
+    "R. M. K. College of Engineering and Technology": {
+      "placement": {
+        "graduating_year": "2024-25",
+        "students_graduating": 461,
+        "students_placed": 340,
+        "median_salary_inr": 400000
+      },
+      "lab_equipment_expenditure_inr": 34303239,
+      "library_expenditure_inr": 4214789,
+      "other_capital_expenditure_inr": null,
+      "engineering_workshops_expenditure_inr": 5541272,
+      "ug4_total_students": 480,
+      "source_url": "https://www.rmkcet.ac.in/docs/NIRF_ENGINEERING.pdf",
+      "source_host": "www.rmkcet.ac.in",
+      "rankings_year": 2026,
+      "verified_institute_name": "R. M. K. College of Engineering and Technology",
+      "verified_institute_id": "IR-E-C-16497",
+      "provenance": "self_hosted_by_institution",
+      "host_note": null
+    },
+    "Sri Eshwar College of Engineering": {
+      "placement": {
+        "graduating_year": "2023-24",
+        "students_graduating": 588,
+        "students_placed": 472,
+        "median_salary_inr": 480000
+      },
+      "lab_equipment_expenditure_inr": 23443625,
+      "library_expenditure_inr": 1894187,
+      "other_capital_expenditure_inr": null,
+      "engineering_workshops_expenditure_inr": 50000,
+      "ug4_total_students": 720,
+      "source_url": "https://sece.ac.in/wp-content/uploads/2025/02/DCS-2025-Engineering.pdf",
+      "source_host": "sece.ac.in",
+      "rankings_year": 2025,
+      "verified_institute_name": "Sri Eshwar College of Engineering",
+      "verified_institute_id": "IR-E-C-37057",
+      "provenance": "self_hosted_by_institution",
+      "host_note": null
+    },
+    "SNS College of Technology": {
+      "placement": {
+        "graduating_year": "2024-25",
+        "students_graduating": 911,
+        "students_placed": 871,
+        "median_salary_inr": 615000
+      },
+      "lab_equipment_expenditure_inr": 85940981,
+      "library_expenditure_inr": 2183504,
+      "other_capital_expenditure_inr": null,
+      "engineering_workshops_expenditure_inr": 1670460,
+      "ug4_total_students": 1020,
+      "source_url": "https://snsiqac.org/NIRF/NIRF%202026/NIRF%202026_SNSCT_ENGG.pdf",
+      "source_host": "snsiqac.org",
+      "rankings_year": 2026,
+      "verified_institute_name": "SNS College of Technology",
+      "verified_institute_id": "IR-E-C-36947",
+      "provenance": "self_hosted_by_institution",
+      "host_note": "Served from snsiqac.org, the SNS Institutions IQAC site, rather than snsct.org."
+    },
+    "Prince Shri Venkateshwara Padmavathy Engineering College": {
+      "placement": {
+        "graduating_year": "2024-25",
+        "students_graduating": 339,
+        "students_placed": 303,
+        "median_salary_inr": 500000
+      },
+      "lab_equipment_expenditure_inr": 16657100,
+      "library_expenditure_inr": 2558200,
+      "other_capital_expenditure_inr": null,
+      "engineering_workshops_expenditure_inr": 4557310,
+      "ug4_total_students": 360,
+      "source_url": "https://psvpec.in/wp-content/uploads/2026/04/NIRF.pdf",
+      "source_host": "psvpec.in",
+      "rankings_year": 2026,
+      "verified_institute_name": "Prince Shri Venkateshwara Padmavathy Engineering College",
+      "verified_institute_id": "IR-E-C-16609",
+      "provenance": "self_hosted_by_institution",
+      "host_note": null
+    },
+    "St. Josephs College of Engineering": {
+      "placement": {
+        "graduating_year": "2023-24",
+        "students_graduating": 962,
+        "students_placed": 815,
+        "median_salary_inr": 460000
+      },
+      "lab_equipment_expenditure_inr": 43016973,
+      "library_expenditure_inr": 14905787,
+      "other_capital_expenditure_inr": null,
+      "engineering_workshops_expenditure_inr": 5952700,
+      "ug4_total_students": 1260,
+      "source_url": "https://www.stjosephs.ac.in/NIRF/NIRF2025/NIRF 2025.pdf",
+      "source_host": "www.stjosephs.ac.in",
+      "rankings_year": 2025,
+      "verified_institute_name": "St. Josephs College of Engineering",
+      "verified_institute_id": "IR-E-C-16537",
+      "provenance": "self_hosted_by_institution",
+      "host_note": null
+    },
+    "Sri Venkateswara College of Engineering": {
+      "placement": {
+        "graduating_year": "2024-25",
+        "students_graduating": 846,
+        "students_placed": 695,
+        "median_salary_inr": 620000
+      },
+      "lab_equipment_expenditure_inr": 21740376,
+      "library_expenditure_inr": 3707935,
+      "other_capital_expenditure_inr": null,
+      "engineering_workshops_expenditure_inr": 2947656,
+      "ug4_total_students": 1050,
+      "source_url": "https://www.svce.ac.in/wp-content/uploads/2026/04/NIRF-Engineering.pdf",
+      "source_host": "www.svce.ac.in",
+      "rankings_year": 2026,
+      "verified_institute_name": "Sri Venkateswara College of Engineering",
+      "verified_institute_id": "IR-E-C-16572",
+      "provenance": "self_hosted_by_institution",
+      "host_note": null
+    },
+    "Rajalakshmi Institute of Technology": {
+      "placement": {
+        "graduating_year": "2024-25",
+        "students_graduating": 676,
+        "students_placed": 628,
+        "median_salary_inr": 725000
+      },
+      "lab_equipment_expenditure_inr": 14608984,
+      "library_expenditure_inr": 11912124,
+      "other_capital_expenditure_inr": null,
+      "engineering_workshops_expenditure_inr": 4141706,
+      "ug4_total_students": 780,
+      "source_url": "https://ritchennai.org/nirf-2026/RIT-Data-Capturing-System-ENGINEERING-2026.pdf",
+      "source_host": "ritchennai.org",
+      "rankings_year": 2026,
+      "verified_institute_name": "Rajalakshmi Institute of Technology",
+      "verified_institute_id": "IR-E-C-16532",
+      "provenance": "self_hosted_by_institution",
+      "host_note": null
+    }
+  }
+}

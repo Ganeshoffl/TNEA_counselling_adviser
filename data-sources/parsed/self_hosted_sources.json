@@ -1,0 +1,250 @@
+{
+  "meta": {
+    "dataset": "Institution-hosted NIRF 2025 Engineering disclosures for band-ranked Tamil Nadu TNEA colleges",
+    "why": "NIRF publishes per-institute disclosures only down to rank 200; colleges in the 201-300 band are absent from the Ministry CDN.",
+    "provenance_warning": "These documents are the institution's own NIRF submission, but they are served by the institution rather than by the Ministry of Education. Data from them is graded separately (grade S) and must never be presented as Ministry-hosted.",
+    "acceptance_rules": [
+      "PDF host must share a registrable domain with the institution's own website.",
+      "PDF must declare India Rankings 2025.",
+      "Embedded institute id must start with IR-E- (the Engineering submission).",
+      "Institute name inside the PDF must match the expected college."
+    ],
+    "accepted_count": 12,
+    "rejected": [
+      {
+        "college": "K. Ramakrishnan College of Engineering",
+        "reason": "no acceptable PDF among candidates",
+        "tried": [
+          {
+            "url": "https://www.krce.ac.in/pdf2/dcs-eee.pdf",
+            "reason": "not reachable, or not a PDF"
+          },
+          {
+            "url": "https://www.krce.ac.in/pdf2/dcs-ece.pdf",
+            "reason": "not reachable, or not a PDF"
+          },
+          {
+            "url": "https://www.krce.ac.in/pdf2/dcs-mech.pdf",
+            "reason": "not reachable, or not a PDF"
+          }
+        ]
+      },
+      {
+        "college": "K. Ramakrishnan College of Technology",
+        "reason": "no NIRF PDF link found on the institution's own site"
+      },
+      {
+        "college": "Karpagam College of Engineering",
+        "reason": "no NIRF PDF link found on the institution's own site"
+      },
+      {
+        "college": "PSNA College of Engineering and Technology, Dindigul",
+        "reason": "no NIRF PDF link found on the institution's own site"
+      },
+      {
+        "college": "M.Kumarasamy College of Engineering",
+        "reason": "no NIRF PDF link found on the institution's own site"
+      },
+      {
+        "college": "National Engineering College",
+        "reason": "no acceptable PDF among candidates",
+        "tried": [
+          {
+            "url": "https://nec.edu.in/wp-content/uploads/2024/01/NIRF-ENGINEERING-2021.pdf",
+            "reason": "submission year is 2021, not one of (2025, 2026)"
+          },
+          {
+            "url": "https://nec.edu.in/wp-content/uploads/2024/01/NIRF-ENGINEERING-2020.pdf",
+            "reason": "submission year is 2020, not one of (2025, 2026)"
+          },
+          {
+            "url": "https://nec.edu.in/wp-content/uploads/2024/01/NIRF-2018-NEC-Engineering.pdf",
+            "reason": "no 'Institute Name ... [ID]' line"
+          },
+          {
+            "url": "https://nec.edu.in/wp-content/uploads/2024/01/National-Engineering-College-Nirf-2019-Overall.pdf",
+            "reason": "submission year is None, not one of (2025, 2026)"
+          },
+          {
+            "url": "https://nec.edu.in/wp-content/uploads/2024/01/National-Engineering-College-NIRF-2019-Engineering.pdf",
+            "reason": "submission year is None, not one of (2025, 2026)"
+          },
+          {
+            "url": "https://nec.edu.in/wp-content/uploads/2024/01/NIRF-OVERALL-2021.pdf",
+            "reason": "submission year is 2021, not one of (2025, 2026)"
+          },
+          {
+            "url": "https://nec.edu.in/wp-content/uploads/2024/01/NIRF-OVERALL-2020.pdf",
+            "reason": "submission year is 2020, not one of (2025, 2026)"
+          },
+          {
+            "url": "https://nec.edu.in/wp-content/uploads/2024/01/NIRF-2018-NEC-Overall.pdf",
+            "reason": "no 'Institute Name ... [ID]' line"
+          }
+        ]
+      },
+      {
+        "college": "E.G.S. Pillay Engineering College",
+        "reason": "no NIRF PDF link found on the institution's own site"
+      },
+      {
+        "college": "Chennai Institute of Technology",
+        "reason": "no NIRF PDF link found on the institution's own site"
+      },
+      {
+        "college": "Saveetha Engineering College",
+        "reason": "no NIRF PDF link found on the institution's own site"
+      },
+      {
+        "college": "Rathinam Technical Campus",
+        "reason": "no NIRF PDF link found on the institution's own site"
+      }
+    ]
+  },
+  "sources": {
+    "Annamalai University": {
+      "college": "Annamalai University",
+      "institute_id": "IR-E-U-0443",
+      "institute_name_in_pdf": "Annamalai University",
+      "source_url": "https://annamalaiuniversity.ac.in/download/nirf2025/Engineering.pdf",
+      "source_host": "annamalaiuniversity.ac.in",
+      "rankings_year": 2025,
+      "header_category": "ENGINEERING S",
+      "local_file": "IR-E-U-0443_2025.pdf",
+      "provenance": "self_hosted_by_institution",
+      "host_note": null
+    },
+    "Kalaignar Karunanidhi Institute of Technology": {
+      "college": "Kalaignar Karunanidhi Institute of Technology",
+      "institute_id": "IR-E-C-37070",
+      "institute_name_in_pdf": "Kalaignar Karunanidhi Institute of Technology",
+      "source_url": "https://www.kitcbe.com/assets/img/NIRF_2025_Engineering.pdf",
+      "source_host": "www.kitcbe.com",
+      "rankings_year": 2025,
+      "header_category": "ENGINEERING S",
+      "local_file": "IR-E-C-37070_2025.pdf",
+      "provenance": "self_hosted_by_institution",
+      "host_note": null
+    },
+    "Hindusthan College of Engineering and Technology": {
+      "college": "Hindusthan College of Engineering and Technology",
+      "institute_id": "IR-E-C-37063",
+      "institute_name_in_pdf": "Hindusthan College of Engineering and Technology",
+      "source_url": "https://hicet.ac.in/files/HICET-NIRF-2025-Engineering.pdf",
+      "source_host": "hicet.ac.in",
+      "rankings_year": 2025,
+      "header_category": "ENGINEERING S",
+      "local_file": "IR-E-C-37063_2025.pdf",
+      "provenance": "self_hosted_by_institution",
+      "host_note": null
+    },
+    "R.M.D Engineering College": {
+      "college": "R.M.D Engineering College",
+      "institute_id": "IR-E-C-16527",
+      "institute_name_in_pdf": "R.M.D Engineering College",
+      "source_url": "https://www.rmd.ac.in/nirf/engg-dcs2025.pdf",
+      "source_host": "www.rmd.ac.in",
+      "rankings_year": 2025,
+      "header_category": "ENGINEERING S",
+      "local_file": "IR-E-C-16527_2025.pdf",
+      "provenance": "self_hosted_by_institution",
+      "host_note": null
+    },
+    "Panimalar Engineering College": {
+      "college": "Panimalar Engineering College",
+      "institute_id": "IR-E-C-16620",
+      "institute_name_in_pdf": "Panimalar Engineering College",
+      "source_url": "https://www.panimalar.ac.in/assets/pdf/academics/nirf/PEC_NIRF2025_Engineering.pdf",
+      "source_host": "www.panimalar.ac.in",
+      "rankings_year": 2025,
+      "header_category": "ENGINEERING S",
+      "local_file": "IR-E-C-16620_2025.pdf",
+      "provenance": "self_hosted_by_institution",
+      "host_note": null
+    },
+    "R. M. K. College of Engineering and Technology": {
+      "college": "R. M. K. College of Engineering and Technology",
+      "institute_id": "IR-E-C-16497",
+      "institute_name_in_pdf": "R. M. K. College of Engineering and Technology",
+      "source_url": "https://www.rmkcet.ac.in/docs/NIRF_ENGINEERING.pdf",
+      "source_host": "www.rmkcet.ac.in",
+      "rankings_year": 2026,
+      "header_category": "ENGINEERING S",
+      "local_file": "IR-E-C-16497_2026.pdf",
+      "provenance": "self_hosted_by_institution",
+      "host_note": null
+    },
+    "Sri Eshwar College of Engineering": {
+      "college": "Sri Eshwar College of Engineering",
+      "institute_id": "IR-E-C-37057",
+      "institute_name_in_pdf": "Sri Eshwar College of Engineering",
+      "source_url": "https://sece.ac.in/wp-content/uploads/2025/02/DCS-2025-Engineering.pdf",
+      "source_host": "sece.ac.in",
+      "rankings_year": 2025,
+      "header_category": "ENGINEERING S",
+      "local_file": "IR-E-C-37057_2025.pdf",
+      "provenance": "self_hosted_by_institution",
+      "host_note": null
+    },
+    "SNS College of Technology": {
+      "college": "SNS College of Technology",
+      "institute_id": "IR-E-C-36947",
+      "institute_name_in_pdf": "SNS College of Technology",
+      "source_url": "https://snsiqac.org/NIRF/NIRF%202026/NIRF%202026_SNSCT_ENGG.pdf",
+      "source_host": "snsiqac.org",
+      "rankings_year": 2026,
+      "header_category": "ENGINEERING S",
+      "local_file": "IR-E-C-36947_2026.pdf",
+      "provenance": "self_hosted_by_institution",
+      "host_note": "Served from snsiqac.org, the SNS Institutions IQAC site, rather than snsct.org."
+    },
+    "Prince Shri Venkateshwara Padmavathy Engineering College": {
+      "college": "Prince Shri Venkateshwara Padmavathy Engineering College",
+      "institute_id": "IR-E-C-16609",
+      "institute_name_in_pdf": "Prince Shri Venkateshwara Padmavathy Engineering College",
+      "source_url": "https://psvpec.in/wp-content/uploads/2026/04/NIRF.pdf",
+      "source_host": "psvpec.in",
+      "rankings_year": 2026,
+      "header_category": "ENGINEERING S",
+      "local_file": "IR-E-C-16609_2026.pdf",
+      "provenance": "self_hosted_by_institution",
+      "host_note": null
+    },
+    "St. Josephs College of Engineering": {
+      "college": "St. Josephs College of Engineering",
+      "institute_id": "IR-E-C-16537",
+      "institute_name_in_pdf": "St. Josephs College of Engineering",
+      "source_url": "https://www.stjosephs.ac.in/NIRF/NIRF2025/NIRF 2025.pdf",
+      "source_host": "www.stjosephs.ac.in",
+      "rankings_year": 2025,
+      "header_category": "ENGINEERING S",
+      "local_file": "IR-E-C-16537_2025.pdf",
+      "provenance": "self_hosted_by_institution",
+      "host_note": null
+    },
+    "Sri Venkateswara College of Engineering": {
+      "college": "Sri Venkateswara College of Engineering",
+      "institute_id": "IR-E-C-16572",
+      "institute_name_in_pdf": "Sri Venkateswara College of Engineering",
+      "source_url": "https://www.svce.ac.in/wp-content/uploads/2026/04/NIRF-Engineering.pdf",
+      "source_host": "www.svce.ac.in",
+      "rankings_year": 2026,
+      "header_category": "ENGINEERING S",
+      "local_file": "IR-E-C-16572_2026.pdf",
+      "provenance": "self_hosted_by_institution",
+      "host_note": null
+    },
+    "Rajalakshmi Institute of Technology": {
+      "college": "Rajalakshmi Institute of Technology",
+      "institute_id": "IR-E-C-16532",
+      "institute_name_in_pdf": "Rajalakshmi Institute of Technology",
+      "source_url": "https://ritchennai.org/nirf-2026/RIT-Data-Capturing-System-ENGINEERING-2026.pdf",
+      "source_host": "ritchennai.org",
+      "rankings_year": 2026,
+      "header_category": "ENGINEERING S",
+      "local_file": "IR-E-C-16532_2026.pdf",
+      "provenance": "self_hosted_by_institution",
+      "host_note": null
+    }
+  }
+}
